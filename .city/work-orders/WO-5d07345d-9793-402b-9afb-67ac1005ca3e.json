@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "id": "WO-5d07345d-9793-402b-9afb-67ac1005ca3e",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Multiplayer online meeting space like Gather.town",
+  "request": "I want the city to build me a multiplayer online meeting space like Gather.town",
+  "acceptanceCriteria": [
+    "Multiple users can join the same space via a web browser and see each other's avatars move on a shared 2D map in real time",
+    "Users move their avatar with keyboard controls",
+    "Users near each other on the map are connected by proximity-based audio/video, which disconnects when they move apart",
+    "A space-wide text chat is available",
+    "Users choose a display name before joining",
+    "Users can pick their avatar from a list of prepared avatars before joining",
+    "Documented local setup and automated tests are provided"
+  ],
+  "projectIds": [
+    "webe-gather"
+  ],
+  "status": "received",
+  "createdAt": "2026-11-20T04:57:23.324Z",
+  "updatedAt": "2026-11-20T04:57:23.324Z",
+  "history": [
+    {
+      "from": null,
+      "to": "received",
+      "reason": "Petition received as draft intake, not delivery authorization.",
+      "timestamp": "2026-11-20T04:57:23.324Z"
+    }
+  ],
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.5.0"
+    }
+  },
+  "development": {
+    "screenings": [
+      {
+        "route": "formal",
+        "projectIds": [
+          "webe-gather"
+        ],
+        "scopeEvidence": "The work order names only the registered project apps/webe-gather; that directory is absent.",
+        "reason": "A new multiplayer meeting project and substantial real-time capability require formal review.",
+        "evidence": "Reviewed the canonical request, acceptance criteria, project and district records, and adopted policy texts. No runtime study was performed.",
+        "impacts": [
+          "new-project",
+          "substantial-capability",
+          "architecture",
+          "public-interface",
+          "security",
+          "operations"
+        ],
+        "questions": [
+          "Who should be able to enter a space: anyone, invited participants, or another defined group?",
+          "What simultaneous participant target and supported browser/device needs matter for the first version?",
+          "Should conversations or chat be recorded or retained, and what participant controls and proximity behavior are expected?"
+        ],
+        "policyCitations": [
+          {
+            "path": "policies/development-applications.md",
+            "section": "Baseline materiality: new projects and substantial capabilities require formal review",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Purpose and municipal adaptation: safety and structural classes",
+            "projectIds": []
+          }
+        ],
+        "requirements": [
+          {
+            "id": "proposal",
+            "kind": "proposal",
+            "description": "Bounded proposal, alternatives and acceptance measures.",
+            "reason": "Establish what can meet the resident outcome without assuming a scope change."
+          },
+          {
+            "id": "flows",
+            "kind": "diagram",
+            "description": "Component, browser, media and data-flow boundaries, including external dependencies.",
+            "reason": "Review architecture, trust boundaries and cross-asset effects."
+          },
+          {
+            "id": "behavior",
+            "kind": "specification",
+            "description": "Movement, proximity media, chat, participant controls, accessibility and interface behavior.",
+            "reason": "Make the requested behavior and independent acceptance testable."
+          },
+          {
+            "id": "safety",
+            "kind": "study",
+            "description": "Evidence-based privacy and security assessment of access, consent and media handling; identify unperformed checks.",
+            "reason": "Live conversations create significant confidentiality and consent risks."
+          },
+          {
+            "id": "operations",
+            "kind": "project-facts",
+            "description": "Capacity assumptions, supported baselines, operating ownership, resource estimates, tests and recovery approach.",
+            "reason": "Expose ongoing service dependencies, costs and recovery gaps before readiness."
+          }
+        ],
+        "permit": {
+          "safetyClass": 3,
+          "structuralClass": 2,
+          "classRationale": "Live microphone and camera conversations have significant confidentiality and consent implications, warranting safety class 3. New architecture and browser interfaces are currently bounded to one registered project, warranting structural class 2; reassess if evidence or scope changes."
+        },
+        "revision": 1,
+        "recordedAt": "2026-11-20T05:02:57.899Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.5.0"
+          }
+        },
+        "snapshot": "6ff2f24c40d9205d4703b6a3a2177504bdb13bc7b6a62c1dbd453695fe4e38d2"
+      },
+      {
+        "route": "formal",
+        "projectIds": [
+          "webe-gather"
+        ],
+        "scopeEvidence": "The canonical work order names only registered project webe-gather at apps/webe-gather; the directory and apps/ are absent. The resident-approved draft clarifies Google sign-in, persistent accounts/spaces, internet-facing hosting on the resident Linux PC, and up to 10 participants with all 10 in one camera-on conversation. No source architecture or runtime evidence is available.",
+        "reason": "The clarified request is a new project with substantial new capabilities and material architecture, public-interface, security, operational, and potential cost effects. Formal review is required by the adopted development baseline; missing technical facts require city investigation and do not justify a lightweight exemption.",
+        "evidence": "Read the canonical work order, project and district registers, config, charter, adopted policy files, and exact resident-supplied draft. No source directory exists; no tests, builds, installations, scans, Internet/provider/Google, host/network, or runtime studies were performed. Config records adoption, but city status/validation and digest currentness could not be executed or verified here.",
+        "impacts": [
+          "new-project",
+          "substantial-capability",
+          "architecture",
+          "public-interface",
+          "security",
+          "operations",
+          "cost"
+        ],
+        "questions": [
+          "Is it acceptable that a guest could rejoin after a session-only ban by starting a fresh session, or should the desired behavior be different?",
+          "After technical feasibility is investigated, if PC-only hosting cannot connect some participants, should the proposal accept limited compatibility or should a separately hosted relay be considered despite its added cost, privacy, and dependency implications?"
+        ],
+        "policyCitations": [
+          {
+            "path": "policies/development-applications.md",
+            "section": "Baseline materiality: new projects and substantial capabilities; material architecture, public-interface, security, operational and cost effects",
+            "projectIds": []
+          },
+          {
+            "path": "policies/development-applications.md",
+            "section": "Scoped local refinements and authority: no adopted project-specific refinement identified; repository-wide baseline applies",
+            "projectIds": []
+          },
+          {
+            "path": "policies/development-applications.md",
+            "section": "Application assistance: formal screening routes to Development Advisor through City Manager; missing studies and resident answers block readiness",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Purpose and municipal adaptation: separate safety and structural classes, definitions and minimum floors",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Qualified statements and independent verification: class-3 safety requires matching qualified statement; class-4 verification rule does not apply to this screening",
+            "projectIds": []
+          }
+        ],
+        "requirements": [
+          {
+            "id": "proposal",
+            "kind": "proposal",
+            "description": "Bound the clarified version-one proposal, alternatives, limitations, and measurable acceptance criteria, including the 10-person camera-on target.",
+            "reason": "The new scope materially differs from the original work order and must be reviewable without treating draft criteria as demonstrated results."
+          },
+          {
+            "id": "flows",
+            "kind": "diagram",
+            "description": "Show actual browser, identity, guest-link, host/session-control, signaling/media, external Google, persistence, and Linux-host boundaries and data flows.",
+            "reason": "The conceptual draft leaves trust boundaries, media transport, external dependencies, and storage paths unresolved."
+          },
+          {
+            "id": "behavior",
+            "kind": "specification",
+            "description": "Specify supported access and host roles, session-ban semantics, movement, proximity thresholds, consent and media controls, failure feedback, accessibility, and browser/device baseline.",
+            "reason": "These behaviors are needed to define safe operation and independent acceptance; resident choices and supported baselines remain unresolved."
+          },
+          {
+            "id": "safety",
+            "kind": "study",
+            "description": "Provide an evidence-based privacy/security assessment for internet-facing guest access, Google sign-in, link handling, host controls, persistent data and metadata, media consent, and retention; identify checks not performed. Obtain and separately record the required class-3 qualified safety statement.",
+            "reason": "The clarified access, authentication, persistence, and live-media scope has significant security, confidentiality, consent, and data-integrity implications. Static discussion is not a study or qualified statement."
+          },
+          {
+            "id": "operations",
+            "kind": "project-facts",
+            "description": "Identify operating ownership and coverage, Linux/host/network assumptions, data location, manual backup and restore approach, dependencies, and estimated resource/cost needs; distinguish estimates from authorized expenditure.",
+            "reason": "The proposed internet-facing resident-PC service and persistent local data create ongoing operational and recovery obligations not established by the current record."
+          },
+          {
+            "id": "capacity-feasibility",
+            "kind": "study",
+            "description": "Assess feasibility and evidence for 10 simultaneous participants in one camera-on conversation, connectivity across the proposed supported environments, and evidence-based performance and compatibility thresholds.",
+            "reason": "The target is explicit, but the hardware, network, media path, supported baseline, and passing thresholds are unknown; no capacity or connectivity study has been performed."
+          }
+        ],
+        "permit": {
+          "safetyClass": 3,
+          "structuralClass": 2,
+          "classRationale": "Safety class 3 reflects significant security, confidentiality, consent, and data-integrity implications from internet-facing guest access, Google sign-in, persistent accounts/data, host controls, and live audio/video; the required matching qualified safety statement remains outstanding. Structural class 2 reflects material architecture, public-interface, and persistence effects at the minimum policy floor, bounded by the only declared registered project. No evidence currently establishes a broader cross-project blast radius or class-3 structural effect. Reassess if actual design or evidence warrants it; this classification does not establish architecture or runtime safety."
+        },
+        "revision": 2,
+        "recordedAt": "2026-11-20T05:56:21.461Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.5.0"
+          }
+        },
+        "snapshot": "fca275a6f4caad9fbe4c8b28dd627d086c751e3f7b40c6e0ec6ee5c197d476b7"
+      }
+    ],
+    "applications": [
+      {
+        "screeningRevision": 2,
+        "reason": "Partial resident-assisted application based on the approved draft; only the proposal requirement is submitted as evidence.",
+        "evidence": "Basis: resident-approved draft at /home/webe/.copilot/session-state/43c15bff-daea-4a50-a9c1-dbe66c6ac491/files/webe-gather-application-draft.md; canonical work order, project register, screening revision 2 and relevant policy records were read. The registered project directory is absent. No source or runtime evidence and no technical studies are available. flows, behavior, safety, operations and capacity-feasibility remain missing; the class-3 qualified statement is outstanding. Both current screening questions remain unanswered.",
+        "proposal": "A browser-based meeting space hosted on the resident Linux PC, reachable while the PC and service are running. Each space has a shared prepared 2D map, moving avatars, proximity audio/video and live-only space chat. Up to 10 participants may connect, with all 10 in one camera-on conversation; additional participants are told the space is full. Anyone with the link may join as a guest; Google sign-in is for creating spaces and saving prepared avatar choices. Spaces and saved avatar choices persist locally; active sessions end on shutdown. The creator has host controls to remove participants or apply a current-session, non-IP ban; whether a guest may rejoin in a fresh session remains unanswered. Keyboard movement is desired on suitable devices and touch movement on phones and tablets. The resident manages backups. The approved draft’s alternatives, limits and proposed acceptance measures are not evidence of implementation or test results.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Resident-approved draft, sections Resident outcome and proposal, Alternatives and tradeoffs, and Draft acceptance measures. These contain the bounded proposal and alternatives; acceptance measures are proposed, not demonstrated. Planner review remains pending."
+          }
+        ],
+        "revision": 1,
+        "recordedAt": "2026-11-20T06:02:58.679Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.5.0"
+          }
+        }
+      },
+      {
+        "screeningRevision": 2,
+        "reason": "Partial resident-assisted application based on the approved draft; only the proposal requirement is submitted as evidence.",
+        "evidence": "Basis: resident-approved draft at /home/webe/.copilot/session-state/43c15bff-daea-4a50-a9c1-dbe66c6ac491/files/webe-gather-application-draft.md; canonical work order, project register, screening revision 2 and relevant policy records were read. The registered project directory is absent. No source or runtime evidence and no technical studies are available. flows, behavior, safety, operations and capacity-feasibility remain missing; the class-3 qualified statement is outstanding. Both current screening questions remain unanswered.",
+        "proposal": "A browser-based meeting space hosted on the resident Linux PC, reachable while the PC and service are running. Each space has a shared prepared 2D map, moving avatars, proximity audio/video and live-only space chat. Up to 10 participants may connect, with all 10 in one camera-on conversation; additional participants are told the space is full. Anyone with the link may join as a guest; Google sign-in is for creating spaces and saving prepared avatar choices. Spaces and saved avatar choices persist locally; active sessions end on shutdown. The creator has host controls to remove participants or apply a current-session, non-IP ban; whether a guest may rejoin in a fresh session remains unanswered. Keyboard movement is desired on suitable devices and touch movement on phones and tablets. The resident manages backups. The approved draft’s alternatives, limits and proposed acceptance measures are not evidence of implementation or test results.",
+        "answers": [
+          {
+            "question": "Is it acceptable that a guest could rejoin after a session-only ban by starting a fresh session, or should the desired behavior be different?",
+            "answer": "Yes, that limitation is acceptable"
+          }
+        ],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Resident-approved draft, sections Resident outcome and proposal, Alternatives and tradeoffs, and Draft acceptance measures. These contain the bounded proposal and alternatives; acceptance measures are proposed, not demonstrated. Planner review remains pending."
+          }
+        ],
+        "revision": 2,
+        "recordedAt": "2026-11-20T06:12:01.384Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.5.0"
+          }
+        }
+      }
+    ],
+    "assessments": [],
+    "statements": [],
+    "verifications": [],
+    "completionNotices": []
+  }
+}

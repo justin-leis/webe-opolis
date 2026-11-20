@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "projects": [
+    {
+      "id": "webe-gather",
+      "name": "Webe Gather",
+      "path": "apps/webe-gather",
+      "description": "Multiplayer online meeting space similar to Gather.town"
+    }
+  ]
+}

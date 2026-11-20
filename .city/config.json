@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 2,
+  "plugin": {
+    "name": "repository-city",
+    "version": "0.5.0"
+  },
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "name": "webe-opolis",
+  "createdAt": "2026-11-20T04:44:27.808Z",
+  "governance": "adopted",
+  "adoption": {
+    "adoptedOn": "2026-11-20",
+    "recordedAt": "2026-11-20T18:45:09.236Z",
+    "charter": {
+      "path": "charter.md",
+      "sha256": "06e44c88815b5a55c2cfb40c6c4f92821a7818533d7d00dca7e2a3d7bcead6ed",
+      "version": null
+    },
+    "policies": [
+      {
+        "path": "policies/authority-and-policy.md",
+        "sha256": "42bf18f099e55551a2dedb3a0577dea9deede628230bef88abdfc20fc3285dfb"
+      },
+      {
+        "path": "policies/building-permits.md",
+        "sha256": "d02d1f6af97758e3c1475332ea2835b2a8a725797d1f7d03807241f11dc9b4be"
+      },
+      {
+        "path": "policies/continuity-and-accountability.md",
+        "sha256": "6989b1a1c3a6932f0da33074d741b2ef6530477ce08895830a803579c5aad69c"
+      },
+      {
+        "path": "policies/council-delegation.md",
+        "sha256": "67cb8e6f1ddf5b5986cda39ef880356645252df724b09604b1e2e7495bea1f53"
+      },
+      {
+        "path": "policies/development-applications.md",
+        "sha256": "089bc537ab6d10da9b4c3c8e9172795d567f7fabffa3da3d3d66ddc307800ee5"
+      },
+      {
+        "path": "policies/infrastructure-management.md",
+        "sha256": "27ed0c4b4b6b76d48409df0264b98ca9237b0b6f808c7dcb5b0380945f2986a1"
+      },
+      {
+        "path": "policies/institutional-review.md",
+        "sha256": "7dee97bd129bd0640b1bfa3ceb89085a9150b60b59a236efa6affeba45b3bb4e"
+      },
+      {
+        "path": "policies/records-and-privacy.md",
+        "sha256": "8a9c0d0df922bbd6711e6819c4590c6ebf5f104bafe2ca311253350ad25c1d5e"
+      },
+      {
+        "path": "policies/resources-and-workforce.md",
+        "sha256": "cfbb7204b4d2549132a73f2525dfcf93f2823ed2b9711ff125348e126ecedc8b"
+      },
+      {
+        "path": "policies/service-catalogue.md",
+        "sha256": "7e62154d4b79612e261f0b9bbf4484bcf27b377ea780169b1d51da7a564cd151"
+      },
+      {
+        "path": "policies/workforce-delegation.md",
+        "sha256": "4107b1bdc11df29c4b2fd67fcb8da656567d11627f0c764642e05e8951ae2ac1"
+      }
+    ],
+    "evidence": {
+      "rule": "resident-declaration",
+      "declaredBy": "Resident",
+      "reference": "Resident approved the reviewed Class-3 Safety Reviewer Amendment Proposal in conversation; identity is not authenticated by this record.",
+      "authenticated": false
+    },
+    "history": [
+      {
+        "adoptedOn": "2026-11-19",
+        "recordedAt": "2026-11-20T04:45:55.209Z",
+        "charter": {
+          "path": "charter.md",
+          "sha256": "dee4fac927541525c85e88fa6d875e08eb4af5ddb6d84093ef473a5bd130e20a",
+          "version": null
+        },
+        "policies": [
+          {
+            "path": "policies/authority-and-policy.md",
+            "sha256": "1bfb9a0301bc838c2e889c170f20a307d467a06056ea45dfd6bb6a27107f2814"
+          },
+          {
+            "path": "policies/building-permits.md",
+            "sha256": "4512fc9dc43ee6c37895eda8f50b96417b247f455def265cb56fda04f6e04b71"
+          },
+          {
+            "path": "policies/continuity-and-accountability.md",
+            "sha256": "260ad83e510f64c605dd385a8bdb9c65678b4efd002f80bee0a7bd3c3736d48f"
+          },
+          {
+            "path": "policies/council-delegation.md",
+            "sha256": "d12e91ad2022c49f9f6bed36eb709439f1f7112cd8f31c737fc36e843ea0ad75"
+          },
+          {
+            "path": "policies/development-applications.md",
+            "sha256": "6c15b68a072bcd786f2b72f7c18860aee05f5db6a5fc39590f5e60cdf1bd6121"
+          },
+          {
+            "path": "policies/infrastructure-management.md",
+            "sha256": "aeebc52283bea76127ae960cca489c878fb2d295508e05944b4534c616033911"
+          },
+          {
+            "path": "policies/institutional-review.md",
+            "sha256": "31c7ac49658cf4f89e637baa8e1cdeaf4e98e9e3b7e48fddc462e26599ec0e21"
+          },
+          {
+            "path": "policies/records-and-privacy.md",
+            "sha256": "804877c9634afe9b46789c7e1b0e6187b6e4892b8fedd83d58d257a0f61eb7db"
+          },
+          {
+            "path": "policies/resources-and-workforce.md",
+            "sha256": "dad92fe5b0b8f45cd6fa514c98438bdf733dc8350dd19651b0d9f58477fa4d58"
+          },
+          {
+            "path": "policies/service-catalogue.md",
+            "sha256": "355e6a86a957d14eb43724402198c89922617d5a72329483efdda94c5a8cd3b7"
+          },
+          {
+            "path": "policies/workforce-delegation.md",
+            "sha256": "598acf8433598f1c56f70382719e769cf928bc835fe9bfeca98dd02887adb37a"
+          }
+        ],
+        "evidence": {
+          "rule": "resident-declaration",
+          "declaredBy": "Resident",
+          "reference": "Resident declared adoption of the default charter and policies.",
+          "authenticated": false
+        },
+        "supersededAt": "2026-11-20T05:50:05.547Z",
+        "summary": "Reconcile adoption-status language across charter and adopted policies; document recorded scope and unresolved external requirements."
+      },
+      {
+        "adoptedOn": "2026-11-19",
+        "recordedAt": "2026-11-20T05:50:05.547Z",
+        "charter": {
+          "path": "charter.md",
+          "sha256": "06e44c88815b5a55c2cfb40c6c4f92821a7818533d7d00dca7e2a3d7bcead6ed",
+          "version": null
+        },
+        "policies": [
+          {
+            "path": "policies/authority-and-policy.md",
+            "sha256": "42bf18f099e55551a2dedb3a0577dea9deede628230bef88abdfc20fc3285dfb"
+          },
+          {
+            "path": "policies/building-permits.md",
+            "sha256": "26f9b323dc1d877b588654bf4add7e8e017ce3656edace179b3cf9394731ccc9"
+          },
+          {
+            "path": "policies/continuity-and-accountability.md",
+            "sha256": "6989b1a1c3a6932f0da33074d741b2ef6530477ce08895830a803579c5aad69c"
+          },
+          {
+            "path": "policies/council-delegation.md",
+            "sha256": "67cb8e6f1ddf5b5986cda39ef880356645252df724b09604b1e2e7495bea1f53"
+          },
+          {
+            "path": "policies/development-applications.md",
+            "sha256": "089bc537ab6d10da9b4c3c8e9172795d567f7fabffa3da3d3d66ddc307800ee5"
+          },
+          {
+            "path": "policies/infrastructure-management.md",
+            "sha256": "27ed0c4b4b6b76d48409df0264b98ca9237b0b6f808c7dcb5b0380945f2986a1"
+          },
+          {
+            "path": "policies/institutional-review.md",
+            "sha256": "7dee97bd129bd0640b1bfa3ceb89085a9150b60b59a236efa6affeba45b3bb4e"
+          },
+          {
+            "path": "policies/records-and-privacy.md",
+            "sha256": "8a9c0d0df922bbd6711e6819c4590c6ebf5f104bafe2ca311253350ad25c1d5e"
+          },
+          {
+            "path": "policies/resources-and-workforce.md",
+            "sha256": "cfbb7204b4d2549132a73f2525dfcf93f2823ed2b9711ff125348e126ecedc8b"
+          },
+          {
+            "path": "policies/service-catalogue.md",
+            "sha256": "7e62154d4b79612e261f0b9bbf4484bcf27b377ea780169b1d51da7a564cd151"
+          },
+          {
+            "path": "policies/workforce-delegation.md",
+            "sha256": "9809892c28b8c365e074850206275d467ee7ef2168713b2fd7a245cbedcb4aa1"
+          }
+        ],
+        "evidence": {
+          "rule": "resident-declaration",
+          "declaredBy": "Resident",
+          "reference": "Resident approved the reviewed amendment proposal; legal, organizational, and hosting requirements remain not assessed; local record unauthenticated.",
+          "authenticated": false
+        },
+        "supersededAt": "2026-11-20T18:45:09.236Z",
+        "summary": "Allow a narrowly scoped, HR-endorsed class-3 safety reviewer appointment for pre-authorization readiness without authorizing expenditure or delivery."
+      }
+    ]
+  }
+}

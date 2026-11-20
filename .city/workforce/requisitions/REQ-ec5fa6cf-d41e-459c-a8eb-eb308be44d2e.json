@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "REQ-ec5fa6cf-d41e-459c-a8eb-eb308be44d2e",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "workOrderId": "WO-5d07345d-9793-402b-9afb-67ac1005ca3e",
+  "staffId": "permit-safety-class-3-reviewer",
+  "title": "Class-3 Permit Safety Statement Reviewer",
+  "reason": "Specific pre-authorization competency gap: current formal screening revision 2 requires a qualified permit-safety-class-3 statement before the application can be ready; status shows only the bundled general engineer active and no specialist qualification or current assignment. This requisition requests review only; it does not authorize appointment, delivery, testing, or expenditure.",
+  "duties": "Review available submitted evidence within this work order's screening revision 2 safety scope and prepare a bounded, evidence-backed class-3 safety statement that identifies limitations and checks not performed. Do not implement, conduct runtime safety testing, authorize work, approve expenditure, or inspect an implementation you delivered; the Engineering Manager records any accepted statement separately.",
+  "competencies": [
+    "permit-safety-class-3"
+  ],
+  "standards": [
+    "Adopted .city/policies/building-permits.md, Qualified statements and independent verification: class-3 safety requires a matching qualified statement.",
+    "Adopted .city/policies/workforce-delegation.md, Merit and necessity test; independent HR review and separation of duties."
+  ],
+  "tools": [
+    "read",
+    "search"
+  ],
+  "checks": [],
+  "mcpProposals": [],
+  "status": "endorsed",
+  "appointment": null,
+  "createdAt": "2026-11-20T17:08:23.435Z",
+  "updatedAt": "2026-11-20T17:09:19.724Z",
+  "history": [
+    {
+      "from": null,
+      "to": "requested",
+      "actor": "engineering-manager",
+      "reason": "Specific pre-authorization competency gap: current formal screening revision 2 requires a qualified permit-safety-class-3 statement before the application can be ready; status shows only the bundled general engineer active and no specialist qualification or current assignment. This requisition requests review only; it does not authorize appointment, delivery, testing, or expenditure.",
+      "timestamp": "2026-11-20T17:08:23.435Z"
+    },
+    {
+      "from": "requested",
+      "to": "endorsed",
+      "actor": "human-resources",
+      "reason": "Need is documented and specifically tied to the revision-2 class-3 safety statement required for readiness; status shows no active class-3 permit-safety specialist, only the bundled general engineer. Duties are bounded to evidence review and a limited statement, with testing, implementation, authorization, inspection, and audit excluded; permit-safety-class-3 is the policy-defined, observable competency and the output is reviewable. Read/search are least privilege. No checks are proposed; the project directory is absent, so no existing project commands or command side effects can be reviewed or run, and none are needed for this document-only remit. Endorse HR review only: the work order remains received, not authorized; workforce delegation bars appointment for an unauthorized order, so no appointment or statement work may proceed until that authority condition is resolved. The local competency label is not an external professional certification.",
+      "timestamp": "2026-11-20T17:09:19.724Z"
+    }
+  ],
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.3.0"
+    }
+  }
+}
