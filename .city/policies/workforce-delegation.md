@@ -18,7 +18,8 @@ The resident delegates to the Engineering Manager the limited authority to
 appoint a specialist engineering agent, but only after Human Resources has
 reviewed and endorsed a specific requisition. The Engineering Manager must
 record an approve or decline decision with its reason. It may appoint only
-specialist engineers needed for an identified, authorized work order; it cannot
+specialist engineers needed for an identified, authorized work order, or for
+the pre-authorization class-3 safety statement preparation described below; it cannot
 appoint other municipal offices, alter this delegation, increase tool
 permissions, or approve its own requisition without independent HR review.
 
@@ -30,7 +31,8 @@ before delivery authorization, solely to prepare the qualified safety statement
 required by its current screening for safety class 3. This limited appointment
 is available only when the work order has a current formal screening, the
 required class-3 safety statement is outstanding, and no active qualified
-engineer is available. The Manager must document the case-specific need, scope,
+engineer is available. The requisition must record the `permit-safety-class-3`
+competency. The Manager must document the case-specific need, scope,
 competency, term, and reasons; the ordinary merit test and all HR review
 requirements still apply.
 
@@ -43,6 +45,14 @@ credentials or secrets, installations, external-provider setup, paid services,
 or expenditure. If any proposed step would incur expenditure or require
 broader access or permissions, stop and refer it for separate resident approval
 before proceeding.
+
+On a bounded request from the Engineering Manager, the specialist returns the
+statement and an author-attributed filing request to the Manager, who records
+it with `permit-statement` and routes durable filing to the Records Officer.
+Preparation does not include recording the statement, changing lifecycle state,
+or authorizing anything. It does not extend to class-4 or structural statements,
+independent verification, or reserved matters. These limits are instructions,
+not technical access controls, and the runtime does not interpret policy prose.
 
 The appointment ends when the statement is recorded or the screening is
 superseded, the work order is withdrawn or closed, or the Manager records that

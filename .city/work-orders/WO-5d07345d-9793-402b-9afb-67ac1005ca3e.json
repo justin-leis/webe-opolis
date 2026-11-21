@@ -222,6 +222,114 @@
           }
         },
         "snapshot": "fca275a6f4caad9fbe4c8b28dd627d086c751e3f7b40c6e0ec6ee5c197d476b7"
+      },
+      {
+        "route": "formal",
+        "projectIds": [
+          "webe-gather"
+        ],
+        "scopeEvidence": "The canonical work order names only registered project webe-gather at apps/webe-gather. The registered project directory and apps/ are absent. The latest recorded resident-assisted proposal describes a browser meeting space hosted on the resident Linux PC, with persistent spaces and saved avatar choices, guest access, and up to 10 participants in one camera-on conversation.",
+        "reason": "The request is a new project with substantial new capabilities and material architecture, public-interface, security, operational, and potential cost effects. Formal review is required by the adopted baseline. The adopted class-3 readiness appointment amendment provides a possible narrowly scoped route to a required safety statement; it does not waive the statement or establish reviewer availability.",
+        "evidence": "Reviewed the canonical work order, screening revision 2, application revision 2, registered project and district records, and current adopted-policy records. No project source, interfaces, or tests are available. No build, test, security, performance, compatibility, provider, Google, host/network, or runtime investigation was performed. The recorded answer accepts the session-only ban limitation. The conditional relay question remains unanswered. Current status is actionable at screening-required; no lifecycle change is proposed.",
+        "impacts": [
+          "new-project",
+          "substantial-capability",
+          "architecture",
+          "public-interface",
+          "security",
+          "operations",
+          "cost"
+        ],
+        "questions": [
+          "After technical feasibility is investigated, if PC-only hosting cannot connect some participants, should the proposal accept limited compatibility or should a separately hosted relay be considered despite its added cost, privacy, and dependency implications?"
+        ],
+        "policyCitations": [
+          {
+            "path": "policies/development-applications.md",
+            "section": "Baseline materiality: new projects and substantial capabilities; material architecture, public-interface, security, operational, and cost effects",
+            "projectIds": []
+          },
+          {
+            "path": "policies/development-applications.md",
+            "section": "Scoped local refinements and authority: repository-wide applicability; no applicable project-specific refinement identified",
+            "projectIds": []
+          },
+          {
+            "path": "policies/development-applications.md",
+            "section": "Application assistance: necessary evidence, missing studies and answers, and limits of static review",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Purpose and municipal adaptation: class definitions and minimum floors",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Qualified statements and independent verification: class-3 qualified statement",
+            "projectIds": []
+          },
+          {
+            "path": "policies/workforce-delegation.md",
+            "section": "Limited pre-authorization readiness appointment",
+            "projectIds": []
+          }
+        ],
+        "requirements": [
+          {
+            "id": "proposal",
+            "kind": "proposal",
+            "description": "Confirm the bounded version-one proposal, alternatives, limitations, and measurable acceptance measures, including the 10-person camera-on target.",
+            "reason": "The proposal and draft measures need to be reviewed against the current screening; proposed measures are not implementation or test results."
+          },
+          {
+            "id": "flows",
+            "kind": "diagram",
+            "description": "Show browser, identity, guest-link, host/session, signaling/media, Google, persistence, and Linux-host boundaries and data flows.",
+            "reason": "These trust boundaries, data paths, and dependencies are not established by the available evidence."
+          },
+          {
+            "id": "behavior",
+            "kind": "specification",
+            "description": "Specify access and host roles, session-ban behavior, movement and proximity behavior, participant controls, media consent, failure feedback, accessibility, and supported browser/device baseline.",
+            "reason": "These choices and baselines are needed to define safe operation and independently testable acceptance."
+          },
+          {
+            "id": "safety",
+            "kind": "study",
+            "description": "Provide an evidence-based privacy and security assessment for guest access, Google sign-in, links, host controls, persistent data and metadata, media consent, and retention; identify checks not performed and obtain the separately recorded qualified class-3 safety statement.",
+            "reason": "The access, persistence, and live-media scope has significant security, confidentiality, consent, and data-integrity implications. The statement remains required and outstanding. The adopted workforce policy permits a limited readiness-only appointment only if its prerequisites, including HR endorsement, are met; no appointment or qualified review is evidenced."
+          },
+          {
+            "id": "operations",
+            "kind": "project-facts",
+            "description": "Identify operating ownership and coverage, Linux/host/network assumptions, data location, backup and restore approach, dependencies, and estimated resource/cost needs; distinguish estimates from authorized expenditure.",
+            "reason": "The proposed resident-PC service and persistent data create operating and recovery obligations not established in the record."
+          },
+          {
+            "id": "capacity-feasibility",
+            "kind": "study",
+            "description": "Assess evidence for 10 simultaneous participants in one camera-on conversation, connectivity across the proposed supported environments, and measurable performance and compatibility thresholds.",
+            "reason": "Hardware, network, media path, supported baseline, and thresholds are unknown; no capacity or connectivity study is evidenced."
+          }
+        ],
+        "permit": {
+          "safetyClass": 3,
+          "structuralClass": 2,
+          "classRationale": "Safety class 3 reflects significant security, confidentiality, consent, and data-integrity implications from internet-facing guest access, Google sign-in, persistent accounts/data, host controls, and live audio/video; the matching qualified safety statement remains outstanding. The adopted policy permits a limited HR-endorsed readiness appointment only when its prerequisites are met; no appointment or qualified review is evidenced. Structural class 2 reflects material architecture, public-interface, and persistence effects at the minimum policy floor, bounded by the only declared registered project. No evidence establishes a broader cross-project blast radius or class-3 structural effect. Reassess if actual design or evidence warrants it."
+        },
+        "revision": 3,
+        "recordedAt": "2026-11-21T04:10:14.918Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.5.0"
+          }
+        },
+        "snapshot": "84a447b5425f1321a3cbf3a964e21b2f0ae85aae28bbf9c64c66306915bb1345"
       }
     ],
     "applications": [
@@ -270,6 +378,31 @@
         ],
         "revision": 2,
         "recordedAt": "2026-11-20T06:12:01.384Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.5.0"
+          }
+        }
+      },
+      {
+        "screeningRevision": 3,
+        "reason": "Partial assisted application for screening revision 3. Preserve the resident proposal; submit no unsupported study results. Current technical evidence and the conditional screening question remain outstanding.",
+        "evidence": "Reviewed the canonical work order, screening revisions 1-3, existing application revisions 1-2, project register, adopted-policy records, and resident draft at /home/webe/.copilot/session-state/43c15bff-daea-4a50-a9c1-dbe66c6ac491/files/webe-gather-application-draft.md. The registered apps/webe-gather directory is absent. No implementation or technical studies were performed. Prior application revision 2 records the resident answer accepting the session-only ban limitation. Screening revision 3 asks whether to limit compatibility or consider a separately hosted relay only if PC-only hosting cannot connect some participants; that conditional question remains unanswered pending feasibility investigation. The flows, behavior, safety, operations, and capacity-feasibility requirements remain unsatisfied; the class-3 qualified statement remains outstanding. Filing and persistence are pending Records Officer capture.",
+        "proposal": "Preserve the resident draft proposal: a browser meeting space hosted on the resident Linux PC, reachable while the PC and service are running. Spaces persist until their creator deletes them; saved prepared-avatar choices and spaces persist locally across restarts, while active sessions end on shutdown. Anyone with a space link may join as a guest; Google sign-in is for creating spaces and saving avatars. A space supports at most 10 people, with the proposed target of all 10 in one camera-on conversation; an additional participant is told the space is full. Participants choose a display name and prepared avatar. Keyboard movement is desired on suitable devices and touch movement on phones and tablets; custom avatars and map editing are not requested for version one. Microphone and camera start off and are individually enabled; proximity media connects automatically and disconnects on separation. Participants may independently disable incoming audio or video. Space-wide chat is live-only, with no history for later arrivals; audio/video is not recorded by the application. Persistent conversation content is not requested; operational metadata handling remains unassessed. The creator can remove a participant or apply a current-session, non-IP ban; the prior application records the resident accepted the session-only limitation. The resident manages backups. The preferred draft avoids external services other than Google sign-in. Its separately hosted relay alternative is not selected or approved and remains for later consideration only if technical feasibility evidence warrants asking the resident. Stricter account or identifier-based bans are also an unselected alternative. The draft acceptance measures are proposals only. The draft is not implementation, runtime evidence, or authorization.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Resident draft, sections Resident outcome and proposal, Alternatives and tradeoffs, and Draft acceptance measures, preserved at /home/webe/.copilot/session-state/43c15bff-daea-4a50-a9c1-dbe66c6ac491/files/webe-gather-application-draft.md; prior canonical application revision 2. Measures remain proposed, not demonstrated. Independent Planner assessment is pending."
+          }
+        ],
+        "revision": 3,
+        "recordedAt": "2026-11-21T04:14:08.257Z",
         "sourceOffice": "development-advisor",
         "authenticated": false,
         "provenance": {
