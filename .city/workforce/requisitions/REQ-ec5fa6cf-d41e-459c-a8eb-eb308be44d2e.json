@@ -20,10 +20,10 @@
   ],
   "checks": [],
   "mcpProposals": [],
-  "status": "endorsed",
+  "status": "declined",
   "appointment": null,
   "createdAt": "2026-11-20T17:08:23.435Z",
-  "updatedAt": "2026-11-20T17:09:19.724Z",
+  "updatedAt": "2026-11-21T04:52:44.332Z",
   "history": [
     {
       "from": null,
@@ -38,6 +38,13 @@
       "actor": "human-resources",
       "reason": "Need is documented and specifically tied to the revision-2 class-3 safety statement required for readiness; status shows no active class-3 permit-safety specialist, only the bundled general engineer. Duties are bounded to evidence review and a limited statement, with testing, implementation, authorization, inspection, and audit excluded; permit-safety-class-3 is the policy-defined, observable competency and the output is reviewable. Read/search are least privilege. No checks are proposed; the project directory is absent, so no existing project commands or command side effects can be reviewed or run, and none are needed for this document-only remit. Endorse HR review only: the work order remains received, not authorized; workforce delegation bars appointment for an unauthorized order, so no appointment or statement work may proceed until that authority condition is resolved. The local competency label is not an external professional certification.",
       "timestamp": "2026-11-20T17:09:19.724Z"
+    },
+    {
+      "from": "endorsed",
+      "to": "declined",
+      "actor": "engineering-manager",
+      "reason": "Supersede this requisition because it is scoped to screening revision 2; current formal screening revision 3 and the adopted limited pre-authorization readiness rule require a current, independently HR-endorsed scope. This is an administrative supersession, not a finding against the reviewer competency.",
+      "timestamp": "2026-11-21T04:52:44.332Z"
     }
   ],
   "provenance": {

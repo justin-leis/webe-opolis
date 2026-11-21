@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "REQ-3c919967-ad5d-4348-8c67-9c22517a4cf6",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "workOrderId": "WO-5d07345d-9793-402b-9afb-67ac1005ca3e",
+  "staffId": "permit-safety-class-3-reviewer",
+  "title": "Pre-authorization Class-3 Safety Statement Reviewer Rev 3",
+  "reason": "Current formal screening revision 3 for this work order assigns safety class 3 and requires a qualified class-3 statement before application readiness. The current statement remains outstanding, and status lists only the bundled municipal software engineer with no qualified class-3 specialist. This requisition is only for the adopted limited pre-authorization readiness appointment, subject to independent HR review and Engineering Manager approval; it does not authorize implementation, delivery assignment, testing, external access, installation, or expenditure.",
+  "duties": "Read and search only the available evidence for this work order's current screening revision 3 safety scope; prepare a bounded, evidence-backed class-3 safety statement identifying material risks, evidence reviewed, limitations, and checks not performed. No runtime tests, scanning, implementation, repository edits, credentials or secrets access, external-provider setup, installation, delivery assignment or dispatch, authorization, inspection of own work, or expenditure. If the required statement cannot be prepared within this scope, report the gap to the Engineering Manager.",
+  "competencies": [
+    "permit-safety-class-3"
+  ],
+  "standards": [
+    "Adopted .city/policies/building-permits.md, Qualified statements and independent verification: class-3 safety statement required by current screening revision 3.",
+    "Adopted .city/policies/workforce-delegation.md, Limited pre-authorization readiness appointment; Merit and necessity test; fixed least-privilege and separation-of-duties limits."
+  ],
+  "tools": [
+    "read",
+    "search"
+  ],
+  "checks": [],
+  "mcpProposals": [],
+  "status": "approved",
+  "appointment": {
+    "decidedBy": "engineering-manager",
+    "basis": "workforce-delegation",
+    "subject": {
+      "requisitionSha256": "9be59bf9c5f3a2d1d75016c350e457e2e40f660217fa9ec38ba054a9254849b5",
+      "charterSha256": "06e44c88815b5a55c2cfb40c6c4f92821a7818533d7d00dca7e2a3d7bcead6ed",
+      "delegationPolicySha256": "4107b1bdc11df29c4b2fd67fcb8da656567d11627f0c764642e05e8951ae2ac1"
+    },
+    "authenticated": false,
+    "decidedAt": "2026-11-21T05:38:20.163Z"
+  },
+  "createdAt": "2026-11-21T04:53:01.947Z",
+  "updatedAt": "2026-11-21T05:38:20.163Z",
+  "history": [
+    {
+      "from": null,
+      "to": "requested",
+      "actor": "engineering-manager",
+      "reason": "Current formal screening revision 3 for this work order assigns safety class 3 and requires a qualified class-3 statement before application readiness. The current statement remains outstanding, and status lists only the bundled municipal software engineer with no qualified class-3 specialist. This requisition is only for the adopted limited pre-authorization readiness appointment, subject to independent HR review and Engineering Manager approval; it does not authorize implementation, delivery assignment, testing, external access, installation, or expenditure.",
+      "timestamp": "2026-11-21T04:53:01.947Z"
+    },
+    {
+      "from": "requested",
+      "to": "endorsed",
+      "actor": "human-resources",
+      "reason": "Need is documented by current formal screening revision 3: safety class 3 requires a qualified statement that remains outstanding. The work order is received and not delivery-authorized, and the proposed scope is limited to the policy-authorized pre-authorization readiness statement. Status lists only the bundled municipal-software-engineer, with no active qualified class-3 specialist or assignments. Duties are bounded to reviewing available revision-3 safety evidence and preparing an evidence-backed statement identifying material risks, evidence, limitations, and checks not performed; permit-safety-class-3 is the policy-defined competency and the output is observable. Read and search are minimum tools. No checks or MCP proposals are included. Implementation, editing, testing, authorization, inspection, audit, dispatch, and expenditure are excluded, preserving separation of duties. This endorsement does not appoint staff, authorize delivery, or satisfy the remaining screening safety-study requirement.",
+      "timestamp": "2026-11-21T05:38:13.396Z"
+    },
+    {
+      "from": "endorsed",
+      "to": "approved",
+      "actor": "engineering-manager",
+      "reason": "Approve under the adopted limited pre-authorization readiness appointment delegation after independent HR endorsement of this revision-3-specific requisition. Current formal screening revision 3 assigns safety class 3 and requires an outstanding qualified statement; no active qualified class-3 engineer is available. The only active engineer is the bundled general municipal-software engineer and is not qualified for this specialty. The appointment is limited to this work order and this statement: read/search available evidence, prepare the evidence-backed class-3 safety statement and identify limitations and checks not performed. No edit, execute, test, implementation, delivery assignment or dispatch, credentials or secrets access, installation, external-provider setup, spending, or expenditure. It terminates when the statement is recorded, screening is superseded, the work order is withdrawn or closed, or the statement cannot be completed within this scope.",
+      "timestamp": "2026-11-21T05:38:20.163Z"
+    }
+  ],
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.3.0"
+    }
+  }
+}
