@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 2,
+  "id": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — replacement petition including GitHub Pages publication (related to WO-ce0b2be1-7e0c-464b-b17c-814ad36e3ccd)",
+  "request": "New resident-requested related petition. Predecessor: WO-ce0b2be1-7e0c-464b-b17c-814ad36e3ccd. The petition schema has no structured predecessor-link field; this textual reference is non-destructive and does not withdraw, amend, replace, or close the predecessor. Resident-selected outcome: Create a GitHub Pages homepage for the city that describes its management by the Repository City plugin, links to the plugin and the GitHub repository, and evokes a city for wizards without an Emerald City aesthetic. Extend the outcome to include enabling GitHub Pages and publishing the homepage, followed by live verification of its availability, expected content, and plugin and repository links at the confirmed public address. Registered project scope: city-homepage (docs). Do not assume a workflow, domain or address, hosting mechanism, or target. No change outside docs or increase in access or permissions is implied. Identify and review any such mechanism, external or outside-docs target, or required access before proposing action; no such work is included implicitly. Separate resident authorization is required before security or permission changes, deployment or Pages enablement, publication, or any other reserved matter. This petition is intake only, not authorization.",
+  "acceptanceCriteria": [
+    "The homepage is suitable for hosting on GitHub Pages.",
+    "The homepage states that the city is managed by the Repository City plugin and links to the plugin and this GitHub repository.",
+    "The visual theme evokes a city for wizards and does not resemble the Emerald City.",
+    "GitHub Pages is enabled for the city-homepage project and the homepage is published at the confirmed public address, but only after separate resident authorization covering applicable security, deployment, publication, and any other reserved matter. Petition intake or preview is not that authorization.",
+    "Post-authorization live verification at the confirmed public address records that the page is reachable, contains the expected homepage content, and its plugin and repository links resolve to the confirmed intended destinations. Record the address, check time, evidence, and actual results; do not report an unperformed check as passed.",
+    "Delivery remains scoped to registered project city-homepage (docs). No change outside docs, workflow/domain/other-target assumption, or increase in access or permissions is implied. Identify and review any needed external or outside-docs mechanism, target, or access before proposing action; reserved and security-related changes require separate resident authorization."
+  ],
+  "projectIds": [
+    "city-homepage"
+  ],
+  "status": "in-progress",
+  "createdAt": "2026-11-27T19:06:42.683Z",
+  "updatedAt": "2026-11-27T21:09:32.491Z",
+  "history": [
+    {
+      "from": null,
+      "to": "received",
+      "reason": "Petition received as draft intake, not delivery authorization.",
+      "timestamp": "2026-11-27T19:06:42.683Z"
+    },
+    {
+      "from": "received",
+      "to": "triaged",
+      "reason": "Resident-requested ordinary lifecycle progression for the current ready-formal replacement petition; preserve the recorded development preparation.",
+      "timestamp": "2026-11-27T20:34:21.716Z"
+    },
+    {
+      "from": "triaged",
+      "to": "proposed",
+      "reason": "Manager-routed ordinary progression for the current ready-formal replacement petition; preserve current screening, application, and assessment preparation.",
+      "timestamp": "2026-11-27T20:48:07.420Z"
+    },
+    {
+      "from": "proposed",
+      "to": "awaiting-approval",
+      "reason": "Manager-routed progression of the current ready-formal replacement petition; preserve its current preparation for Council review, without deciding or authorizing delivery.",
+      "timestamp": "2026-11-27T20:48:16.502Z"
+    },
+    {
+      "from": "awaiting-approval",
+      "to": "authorized",
+      "reason": "Delivery authorized by resident in DEC-175b4fab-11dc-4971-bfec-466e9b1cd000; recorded, not authenticated.",
+      "timestamp": "2026-11-27T21:02:07.842Z"
+    },
+    {
+      "from": "authorized",
+      "to": "in-progress",
+      "reason": "Begin implementation on branch justin-leis-wizard-city-homepage-95b after resident confirmation of plan ART-4668a228-8b67-4470-b1eb-c93b9fced805; preserve existing city work; scope remains docs/index.html only.",
+      "timestamp": "2026-11-27T21:09:32.491Z"
+    }
+  ],
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.8.2"
+    }
+  },
+  "development": {
+    "screenings": [
+      {
+        "route": "formal",
+        "projectIds": [
+          "city-homepage"
+        ],
+        "scopeEvidence": "The received petition selects the registered city-homepage project at docs. The district register declares repository-wide repository ownership only, not permission. The requested outcome includes a homepage, Pages enablement, publication and later live verification. The petition expressly does not assume a workflow, domain/address, hosting mechanism or target, and does not imply changes outside docs or increased permissions. Identify and review any needed external or outside-docs mechanism, target or access before proposing action; none is implicitly included. No reserved action is authorized by intake.",
+        "reason": "A new public homepage is a public-interface change and requires formal review under the development-applications baseline. The requested Pages enablement and public release add security-exposure and ongoing operational considerations whose exact mechanism and targets are unknown. Formal review is proportionate; the unknown implementation does not justify assuming a workflow, permissions change, or cross-project impact. Publication, deployment, security/permission changes and expenditure remain resident-reserved.",
+        "evidence": "Reviewed the current received work-order file, project and district registers, adopted-policy register and visible workspace root. The root contains .city and .git; no docs site, component interface or site tests were available to inspect. The new petition is distinct from predecessor WO-ce0b2be1-7e0c-464b-b17c-814ad36e3ccd, which remains unchanged. Its prior screening, Planner draft ART-92cfaa00-6f6c-4971-ad77-11c2354ffeb0 and Advisor packet ART-c0759728-bfba-422d-b638-f2bd470120b4 are background only, not current evidence or authorization. Earlier reported remote Pages observations were not independently verified here and do not establish current host settings, address, permissions, operator, or recovery. No runtime, accessibility, security, compatibility, or live test was performed. No zoning policy is listed as adopted and .city/zoning.json is absent.",
+        "impacts": [
+          "public-interface",
+          "security",
+          "operations"
+        ],
+        "questions": [],
+        "policyCitations": [
+          {
+            "path": "policies/development-applications.md",
+            "section": "Baseline materiality: public-interface changes and significant security or operational effects require formal review",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Purpose and municipal adaptation: safety and structural classification; minimum floors for security and public-interface impacts",
+            "projectIds": []
+          },
+          {
+            "path": "policies/council-delegation.md",
+            "section": "Reserved matters: security, deployment, publication and expenditure",
+            "projectIds": []
+          },
+          {
+            "path": "policies/infrastructure-management.md",
+            "section": "Stewardship cycle: evidence-based service, operator, dependency and recovery facts if a hosting service is identified",
+            "projectIds": []
+          },
+          {
+            "path": "policies/resources-and-workforce.md",
+            "section": "Real resource budgets and asset/supplier lifecycle: distinguish estimates, commitments and actual costs",
+            "projectIds": []
+          }
+        ],
+        "requirements": [
+          {
+            "id": "proposal",
+            "kind": "proposal",
+            "description": "Provide a bounded proposal for the requested homepage and publication outcome, with a smallest viable approach, a meaningful alternative, and no change. Explain resident value, compatibility, maintenance, cost uncertainty and reversibility. Keep implementation within docs unless a separately identified target is reviewed and authorized; do not assume a workflow or hosting mechanism.",
+            "reason": "Make the requested outcome reviewable while preserving the registered project boundary and avoiding implied authority for external or reserved actions."
+          },
+          {
+            "id": "site-spec",
+            "kind": "specification",
+            "description": "Specify the intended homepage content, plugin and repository link destinations, wizard-city visual direction, responsive and accessibility expectations, and observable acceptance. Identify the public address only when established; distinguish proposed checks from completed checks.",
+            "reason": "The public interface must be testable without inventing link targets or claiming unperformed verification."
+          },
+          {
+            "id": "pages-facts",
+            "kind": "project-facts",
+            "description": "Through authorized read-only investigation, establish current Pages settings and source, existing publication/address if any, exact targets and dependencies, relevant host restrictions, and any required access or changes outside docs. Identify the proposed mechanism only after evidence; report unknowns and route any required reserved changes for resident decision. Do not change settings or permissions as investigation.",
+            "reason": "Pages feasibility, publication scope and authority depend on host facts not established by this petition or workspace inspection."
+          },
+          {
+            "id": "risk-operations",
+            "kind": "study",
+            "description": "Prepare a proportionate planning-level assessment of public exposure, least privilege, served files and dependencies, stale or failed publication, operating/maintenance ownership, notification, capacity and any cost, plus feasible unpublishing and recovery using the actual host method. State scenarios, controls, residual risks, evidence limits and unperformed checks. Do not treat an unregistered or external service as a city-owned asset.",
+            "reason": "Public release creates security and continuing operational obligations; actual host controls, ownership and recovery are unknown."
+          },
+          {
+            "id": "verification",
+            "kind": "specification",
+            "description": "Separate future prepublication content, link, responsive, accessibility and exposed-file checks from post-authorization live verification. Specify recording the confirmed public address, check time, evidence and actual reachability, expected-content and plugin/repository-link results. Identify independent inspection and failure/recovery handling; do not report an unperformed check as passed.",
+            "reason": "The acceptance criteria require live evidence, but publication and live checks must await the applicable resident authorization."
+          }
+        ],
+        "permit": {
+          "safetyClass": 2,
+          "structuralClass": 2,
+          "classRationale": "Provisional classes based on the bounded registered docs homepage outcome and the evidence currently available. Public exposure meets the safety-class-2 security floor; the public-interface change meets the structural-class-2 floor. The petition also requests Pages enablement and publication, but no actual mechanism, permission change, cross-project effect, or broader blast radius is established. Class 3 is not inferred solely from missing facts. Reassess and re-screen if verified host or target facts establish a significant safety or structural effect; these provisional classes are not a clearance."
+        },
+        "revision": 1,
+        "recordedAt": "2026-11-27T19:10:46.751Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.8.2"
+          }
+        },
+        "snapshot": "088368a3724f4d29a8cba5e3107bd48aa530ce738d562f2136661ee31d1dc4cc"
+      },
+      {
+        "route": "formal",
+        "projectIds": [
+          "city-homepage"
+        ],
+        "scopeEvidence": "The current petition requests a wizard-city homepage in the registered city-homepage project at docs, GitHub Pages enablement and publication, and live verification after applicable separate resident authorization. The resident selected automatic branch publishing from main:/docs. This is the resident's proposed source/target, not an existing configuration, a verified successful setup, or authorization to enable Pages or publish. Current case evidence attributes a read-only settings-page observation of Pages disabled, source type Deploy from a branch, branch None, and no displayed address; no setting was saved. The petition does not assume a workflow, domain/address, alternate hosting mechanism, or outside-docs target or permission change. Identify any such need separately and stop for scope, screening, and reserved-matter review; none is implicitly included. The selected plugin and repository link destinations are https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. The resident states they will maintain the site; this is intent, not an authenticated appointment or commitment.",
+        "reason": "A new public homepage is a material public-interface change requiring formal review under the adopted development-applications baseline. The requested public release and resident-selected automatic publishing from main:/docs also create bounded security and ongoing operational effects. The selected source is now stated accurately as a proposal; its not-yet-configured or authorized status does not make the mechanism or target unknown. Pages enablement, deployment/publication, security or permission changes, and expenditure remain resident-reserved. Formal review is proportionate; no broader infrastructure or workflow scope is inferred.",
+        "evidence": "Fresh review of the current work order WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84, its prior Advisor applications and Planner assessments, current proposal ART-03a6489e-41b4-4292-8224-186e9f8267a1, specification ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f, diagram ART-1fb66613-8b18-458b-b057-13e30e6f4c79, and Pages/operations study ART-60261964-8bdd-4a59-8394-48fa8087f9bf, together with .city/config.json, charter, project and district registers, and adopted development-applications, building-permits, council-delegation, infrastructure-management and resources-and-workforce policies. The work order is reported by the requester as triaged with screening-required. The inspected workspace root contains only .city and .git; docs and .github are absent, so no site implementation, component interface, or site tests are available to inspect. The latest Advisor packet reports a resident-visible Pages settings page observed read-only: Pages disabled, Deploy from a branch, branch None, no displayed address or eligibility warning; API has_pages:false and Pages GET 404 remain ambiguous. These are attributed observations, not proof of future setup success. The packet reports a public repository, main as default branch, main unprotected, and the resident-selected main:/docs behavior; these host observations are reported evidence, not independently verified here. Exact live address, account-specific setup eligibility, effective access, billing/traffic, and recovery success remain unknown. The resident-selected destinations and statement of intended maintenance are choices, not proof of reachability, authority, or an authenticated operating commitment. The installed plugin runtime is reported as 0.10.0; .city/config.json contains older plugin metadata 0.5.0 and is not treated as the installed runtime version. No zoning policy is adopted and .city/zoning.json is absent. No runtime, accessibility, security, compatibility, build, live-publication, or recovery test has been performed or is required at screening/application stage.",
+        "impacts": [
+          "public-interface",
+          "security",
+          "operations"
+        ],
+        "questions": [],
+        "policyCitations": [
+          {
+            "path": "policies/development-applications.md",
+            "section": "Baseline materiality: public-interface changes and significant security or operational effects require formal review",
+            "projectIds": []
+          },
+          {
+            "path": "policies/building-permits.md",
+            "section": "Purpose and municipal adaptation: risk classes and minimum floors for security and public-interface impacts",
+            "projectIds": []
+          },
+          {
+            "path": "policies/council-delegation.md",
+            "section": "Reserved matters: security, deployment, publication and expenditure",
+            "projectIds": []
+          },
+          {
+            "path": "policies/infrastructure-management.md",
+            "section": "Stewardship cycle: evidence-based service, operator, dependency and recovery facts",
+            "projectIds": []
+          },
+          {
+            "path": "policies/resources-and-workforce.md",
+            "section": "Real resource budgets and asset/supplier lifecycle: distinguish estimates, commitments and actual costs",
+            "projectIds": []
+          }
+        ],
+        "requirements": [
+          {
+            "id": "proposal",
+            "kind": "proposal",
+            "description": "Set out a bounded proposal for the requested homepage and publication outcome within city-homepage (docs): the smallest viable static page and necessary local assets, a meaningful alternative, and no change. Explain resident value, compatibility, maintenance, cost uncertainty, and reversibility. Record automatic publication from main:/docs as the resident-selected proposed source/target, explicitly not yet configured or authorized. Do not silently include a workflow, domain, outside-docs target, or permission change.",
+            "reason": "Make the selected outcome and its tradeoffs reviewable without expanding the registered project boundary or implying authority for reserved actions."
+          },
+          {
+            "id": "site-spec",
+            "kind": "specification",
+            "description": "Specify homepage content stating that the city is managed by Repository City, the resident-selected plugin destination https://github.com/WebeWizard/webe-city and repository destination https://github.com/justin-leis/webe-opolis, original wizard-city styling without an Emerald City resemblance, and proportionate responsive/accessibility expectations. Define observable content and link acceptance; use a public address only after it is established. Treat resident-selected URLs as intended destinations, not tested reachability.",
+            "reason": "Provide testable public-interface criteria without guessing a destination or claiming unperformed checks."
+          },
+          {
+            "id": "pages-facts",
+            "kind": "project-facts",
+            "description": "Document the best available authorized read-only evidence for Pages status/source, the proposed main:/docs target, relevant host constraints and dependencies, actual address if established, and any access or outside-docs changes that would be needed. Attribute and date observations; distinguish the reported disabled/branch-None UI and ambiguous API 404 from verified configuration or successful eligibility. Do not change settings or permissions to investigate. If evidence shows a different target, broader scope, or required reserved change, stop and refer for resident decision and fresh screening as appropriate.",
+            "reason": "Confirm the proposed target and identify any scope, authority, or feasibility dependency without making an unauthorized configuration change."
+          },
+          {
+            "id": "risk-operations",
+            "kind": "study",
+            "description": "Provide a proportionate planning-level assessment of public exposure and served files, least privilege, automatic publication from main:/docs (including the reported unprotected-main observation and the risk of unintended public changes), maintenance/operator intent, failure review and notification limits, capacity and any cost, and feasible unpublishing/recovery based on documented host behavior. Separate observed facts, resident intent, host documentation, estimates, and unknowns; state controls, residual risks, evidence limits, and conditions requiring a stop or resident decision. Do not claim recovery, notification, billing, or setup was tested.",
+            "reason": "The selected automatic-publication model creates public exposure and continuing operating obligations; review them proportionately while preserving unknowns and reserved authority."
+          },
+          {
+            "id": "verification",
+            "kind": "specification",
+            "description": "Specify future checks and evidence only: after applicable delivery authorization, inspect the implemented content, exact links, responsive/accessibility behavior, served-file set, and any build/deployment result; after separate resident authorization for Pages enablement/publication and confirmation of the actual address, record address, time, evidence, and actual live reachability/content/link results. Identify independent inspection, stop-on-failure handling, and only an established and separately authorized recovery path. These are proposed acceptance and delivery checks, not pre-authorization tests or evidence that any check has passed.",
+            "reason": "Make the canonical acceptance criteria verifiable while distinguishing planning readiness from implementation, reserved publication, and future live results."
+          }
+        ],
+        "permit": {
+          "safetyClass": 2,
+          "structuralClass": 2,
+          "classRationale": "Safety class 2 meets the minimum floor for the security impact of intentionally public, automatically published content. Structural class 2 meets the minimum floor for a new public interface. The available evidence supports a bounded static page under docs, with no proposed data collection, custom workflow, permission increase, cross-project change, or broader blast radius; the resident-selected main:/docs behavior adds a disclosed auto-publication risk but does not, on current evidence, establish a significant class-3 effect. Host configuration and setup eligibility remain unverified and are not treated as clearance. These are evidence-based provisional classes, not a way to avoid review: re-screen and raise the appropriate class if verified facts establish significant safety or structural effects."
+        },
+        "revision": 2,
+        "recordedAt": "2026-11-27T20:40:47.365Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        },
+        "snapshot": "99708b4fe2527b531fe8a8da6938dd38f2bc1ddcf051945298a403d9572c49f4"
+      }
+    ],
+    "applications": [
+      {
+        "screeningRevision": 1,
+        "reason": "Partial Advisor filing against formal screening revision 1. It is not ready: pages-facts and risk-operations remain materially incomplete, exact intended link destinations remain open, and no current resident response to the optional plugin-URL question is recorded. No publication or reserved action is authorized.",
+        "evidence": "The current canonical order has formal screening revision 1 and no prior application, assessment, permit statement, or verification. Adopted development-applications, building-permits, and council-delegation policies apply. Filed proposal ART-f26799db-88d6-45fe-8a36-b91083e4d26d and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d support the bounded proposal. Site specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 gives planned interface and verification, but exact plugin and repository public destinations remain unresolved. Engineering Manager report ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 records local-only observations, including configured remote and absent local docs/tracked .github files; it states no host-side review or host checks were performed. Pages settings/source/address, restrictions, targets, required access, and operational facts remain unknown. Preliminary risk study ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 identifies scenarios but expressly leaves the required operations assessment and residual risk unresolved. No runtime, accessibility, security, compatibility, performance, or live study/check was performed. Current Planner working brief ART-d91fbfb2-e722-4c9c-a75d-408f1f93a49f is not an assessment. The related predecessor assessment found destination, host-facts, and operations gaps; they remain unresolved here. No non-applicability is claimed; no class-3 statement is triggered by the provisional screening classes 2/2. Publication, Pages enablement, security/permission changes, deployment, and expenditure remain separately resident-reserved.",
+        "proposal": "Candidate: a static homepage and necessary local assets under registered project docs, with no assumed build dependency. Alternative: a generated site or publishing mechanism only if verified needs justify added dependencies and maintenance. No change avoids new exposure and operating duties but does not meet the resident outcome. The proposal and drawing are filed as ART-f26799db-88d6-45fe-8a36-b91083e4d26d and ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d. Establish actual host facts and exact destinations before proposing a mechanism; perform only authorized prepublication checks, and only after separate authorization publish and verify at a confirmed address. Stop on failure or scope drift; use only an established and separately authorized recovery path. No implementation or publication is authorized.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Proposal ART-f26799db-88d6-45fe-8a36-b91083e4d26d and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d at their .city/artifacts paths give the candidate, alternatives, boundaries, and sequence."
+          },
+          {
+            "requirementId": "site-spec",
+            "disposition": "provided",
+            "evidence": "Specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 at .city/artifacts/ART-dddf8c42-010a-4e76-a05b-25672f1e2e82.json provides planned content, style and checks. Exact plugin/repository destinations and address are not confirmed and remain open."
+          },
+          {
+            "requirementId": "verification",
+            "disposition": "provided",
+            "evidence": "Specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 separates future prepublication checks and post-authorization live verification. These are plans only; no checks have been run."
+          }
+        ],
+        "revision": 1,
+        "recordedAt": "2026-11-27T19:20:07.595Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.8.2"
+          }
+        }
+      },
+      {
+        "screeningRevision": 1,
+        "reason": "Partial Development Advisor revision incorporating the resident-supplied plugin destination. Site specification, Pages facts and risk operations remain incomplete; this is not readiness or authorization.",
+        "evidence": "The resident directly supplied https://github.com/WebeWizard/webe-city as the intended Repository City plugin destination. This choice is not a screening answer, proof of access, ownership, security or future availability. Engineering Manager report ART-242e1068-908c-46c1-ba9d-c59d756eee06 at .city/artifacts/ART-242e1068-908c-46c1-ba9d-c59d756eee06.json records that curl rejected --netrc- before a request was sent; there was no HTTP response and the URL remains unverified. Do not repeat that unchanged step. Application 1 and independent assessment 1 revise remain preserved. The assessment finding about the plugin choice is partly addressed; intended city-repository destination remains unconfirmed. Local report ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 at .city/artifacts/ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622.json reports a configured remote https://github.com/justin-leis/webe-opolis.git, not confirmed resident intent or host ownership, and no host-side review. Pages source, settings, address, restrictions, targets and access remain unknown. Preliminary study ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 at .city/artifacts/ART-afe63d22-f099-4b4a-93ed-c1118b0591b2.json leaves operator, notification, served files, capacity, cost, recovery and residual risk unresolved. No runtime, performance, security, accessibility, compatibility or live checks were performed. The predecessor is historical background, not current host evidence. Screening classes are provisionally safety 2 and structural 2; no class-3 statement is indicated on current evidence. Re-screen if verified impacts warrant it.",
+        "proposal": "For registered city-homepage at docs, propose a static homepage and only necessary local assets, with no assumed build dependency. State that the city is managed by Repository City; link to the resident-selected plugin destination https://github.com/WebeWizard/webe-city and to the city repository once its intended destination is confirmed. Use original wizard-city styling without an Emerald City aesthetic, semantic navigation, visible keyboard focus, readable contrast and responsive layouts. No forms, tracking or data collection are included. Alternative: a generated site or publishing mechanism only if verified needs justify the added dependencies and maintenance; no change avoids new exposure but does not meet the resident outcome. Establish actual hosting facts and operating arrangements before proposing a mechanism. Do not assume a workflow, domain, outside-docs change, permissions or cost. After applicable authorization, implement only authorized scope and record content, link, responsive, accessibility and served-file checks. Pages enablement, deployment, publication, security or permission changes and expenditure require separate resident authorization. After authorized publication at a confirmed address, record check time and actual reachability, content and link results. Stop on failure or scope drift and use only an established, separately authorized recovery method. Independent inspection and resident acceptance remain separate.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Proposal ART-f26799db-88d6-45fe-8a36-b91083e4d26d at .city/artifacts/ART-f26799db-88d6-45fe-8a36-b91083e4d26d.json and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d at .city/artifacts/ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d.json describe the candidate, alternatives and boundaries. Their earlier unknown-plugin wording is updated by the resident choice in this application; host facts and authority remain unknown."
+          },
+          {
+            "requirementId": "verification",
+            "disposition": "provided",
+            "evidence": "Specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 at .city/artifacts/ART-dddf8c42-010a-4e76-a05b-25672f1e2e82.json describes proposed prepublication and post-authorization live checks, evidence and failure handling. The plugin destination is updated by this application; the repository destination and public address remain unconfirmed. No check has been performed."
+          }
+        ],
+        "revision": 2,
+        "recordedAt": "2026-11-27T19:30:43.256Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.8.2"
+          }
+        }
+      },
+      {
+        "screeningRevision": 1,
+        "reason": "Partial Development Advisor revision recording both resident-selected link destinations. Pages facts and host-dependent risk-operations evidence remain missing; this is neither readiness nor authorization.",
+        "evidence": "The resident supplied https://github.com/WebeWizard/webe-city as the plugin destination and clarified that https://github.com/justin-leis/webe-opolis is the intended destination for this workspace repository. These are intended destinations, not authentication, clearance or permission to publish. ART-242e1068-908c-46c1-ba9d-c59d756eee06 at .city/artifacts/ART-242e1068-908c-46c1-ba9d-c59d756eee06.json records a curl failure before any HTTP request, not accessibility. ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 at .city/artifacts/ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622.json reports local observations only and says host-side investigation was unavailable to Engineering Manager. Current Pages settings, source, address, restrictions, targets, dependencies and required access remain unknown. Preliminary study ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 at .city/artifacts/ART-afe63d22-f099-4b4a-93ed-c1118b0591b2.json leaves served files, access, operator, notification, capacity, cost, recovery and residual risk unresolved. Independent assessment 2 and its brief ART-592ae878-e7bc-44e8-88ab-0d4b8f40c835 remain preserved; the repository destination finding is addressed by the resident statement, while host and operations findings remain open. No runtime, performance, security, accessibility, compatibility or live checks were performed. Screening classes are provisionally safety 2 and structural 2; re-screen if verified impacts warrant it. Predecessor records are historical, not current host evidence.",
+        "proposal": "Propose a static homepage and necessary local assets under registered city-homepage docs, with no assumed build dependency. State that Repository City manages the city; link to https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. Use original wizard-city styling without an Emerald City aesthetic, semantic navigation, visible focus, readable contrast and responsive layouts. No forms, tracking or data collection are included. A generated site is an alternative if verified needs justify extra dependencies and maintenance; no change avoids new exposure but misses the requested outcome. Establish actual host and operating facts before proposing a mechanism; do not assume a workflow, domain, outside-docs change, permissions or cost. After applicable authorization, record content, link, responsive, accessibility and served-file checks. Pages enablement, deployment, publication, security or permission changes and expenditure require separate resident authorization. After authorized publication at a confirmed address, record address, time, evidence and actual reachability, content and link results. Stop on failure or scope drift; use only an established and separately authorized recovery method. Independent inspection and resident acceptance remain separate.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Proposal ART-f26799db-88d6-45fe-8a36-b91083e4d26d at .city/artifacts/ART-f26799db-88d6-45fe-8a36-b91083e4d26d.json and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d at .city/artifacts/ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d.json describe the candidate, alternatives and boundaries; their earlier unknown-link wording is updated by the resident statements in this application."
+          },
+          {
+            "requirementId": "site-spec",
+            "disposition": "provided",
+            "evidence": "Specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 at .city/artifacts/ART-dddf8c42-010a-4e76-a05b-25672f1e2e82.json provides planned content, style and accessibility expectations. The resident-selected plugin and repository URLs are recorded in this application, superseding its unknown-link wording. The public address remains unknown and link accessibility is unverified."
+          },
+          {
+            "requirementId": "verification",
+            "disposition": "provided",
+            "evidence": "Specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 at .city/artifacts/ART-dddf8c42-010a-4e76-a05b-25672f1e2e82.json separates planned prepublication and post-authorization live checks, evidence and failure handling. The intended destinations are updated in this application. No check has been performed."
+          }
+        ],
+        "revision": 3,
+        "recordedAt": "2026-11-27T19:38:44.192Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.9.0"
+          }
+        }
+      },
+      {
+        "screeningRevision": 1,
+        "reason": "Advisor application draft for independent assessment against formal screening revision 1. The bounded docs proposal, resident-selected destinations and automatic main:/docs publishing behavior are recorded. Current host facts and documented GitHub behavior are included with explicit limits; no Pages setup, eligibility, address, billing, notification or recovery test is claimed. Resident-reserved actions remain unauthorized.",
+        "evidence": "Reviewed the current canonical case and screening revision 1; prior applications 1–3 and Planner assessments through revision 3; complete findings brief ART-76cee74f-c1ba-48e3-9cd0-0d2f32e6bc3b. Existing proposal/drawing are ART-f26799db-88d6-45fe-8a36-b91083e4d26d and ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d; existing specification ART-09f8da08-dd7c-42c4-8f2d-40fd9d9832c0. Coordinator supplied read-only API/workspace findings and GitHub documentation in this interaction on 2026-11-27; revised specification ART-e5e86ac5-b0ba-4151-af9e-710cca436898 and study ART-b26f5064-3521-45b9-a51d-84118fd6d22f were filed by Records Officer. Pages GET returned 404 and `has_pages` was reported false; current Pages status/source remain unconfirmed. No public address or account-specific billing state was established. The resident selected automatic publication from main:/docs and states they will maintain the site; neither statement authorizes reserved changes. No build, settings change, publication or empirical test occurred.",
+        "proposal": "For registered project city-homepage (docs), create a static wizard-city homepage, not an Emerald City theme, stating that the city is managed by Repository City and linking to https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. Use a top-level index.html and necessary local assets under docs, with no forms, analytics, custom workflow or assumed permission change. The resident selected branch source main:/docs with future docs changes on main publishing automatically. This remains conditional on setup eligibility and separate resident authorization. A separately gated workflow is an alternative only if separately reviewed; it may require outside-docs scope and permissions. No change avoids exposure but misses the requested outcome. After applicable delivery authorization, inspect the exact files, check content, links, responsive/accessibility behavior and build, and stop on failure or scope drift. Only after separately authorized Pages enablement/publication at a confirmed address, record actual live reachability, content and link results. Independent inspection and resident acceptance remain separate.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "ART-f26799db-88d6-45fe-8a36-b91083e4d26d and ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d describe the bounded candidate and alternatives. Current resident-selected URLs and automatic-publication choice are recorded in the current interaction and this application evidence."
+          },
+          {
+            "requirementId": "site-spec",
+            "disposition": "provided",
+            "evidence": "Existing ART-09f8da08-dd7c-42c4-8f2d-40fd9d9832c0 and revised specification ART-e5e86ac5-b0ba-4151-af9e-710cca436898 describe content, links, main:/docs behavior, interface expectations and planned acceptance."
+          },
+          {
+            "requirementId": "pages-facts",
+            "disposition": "provided",
+            "evidence": "Coordinator-reported read-only facts and supplied GitHub documentation are summarized in this application and Pages-facts study ART-b26f5064-3521-45b9-a51d-84118fd6d22f. The 404 ambiguity, current Pages status/source, account restrictions, effective access and billing remain explicitly unknown; no current configuration or eligibility is asserted."
+          },
+          {
+            "requirementId": "risk-operations",
+            "disposition": "provided",
+            "evidence": "Pages-facts and operations study ART-b26f5064-3521-45b9-a51d-84118fd6d22f records exposure, automatic publication, IP logging, documented service limits, failure handling, operator statement, cost uncertainty and documented but untested recovery. No empirical test or clearance is claimed."
+          },
+          {
+            "requirementId": "verification",
+            "disposition": "provided",
+            "evidence": "Existing ART-09f8da08-dd7c-42c4-8f2d-40fd9d9832c0 and revised specification ART-e5e86ac5-b0ba-4151-af9e-710cca436898 separate planned prepublication checks from post-authorization live verification. None has been performed."
+          }
+        ],
+        "revision": 4,
+        "recordedAt": "2026-11-27T20:12:03.639Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        }
+      },
+      {
+        "screeningRevision": 1,
+        "reason": "Advisor application revision responding to Planner assessment 4. The resident-selected scope, links, operator statement and automatic main:/docs behavior are recorded. The coordinator’s signed-in Pages settings UI observation establishes the displayed disabled state, branch source type and branch None without implying a successful future save. The application bounds future files and operations without requiring implementation files or empirical post-authorization tests before authorization. No delivery or reserved action is authorized.",
+        "evidence": "Reviewed the canonical work order, formal screening revision 1, applications 1–4, Planner assessments 1–4 and complete Planner findings brief ART-76cee74f-c1ba-48e3-9cd0-0d2f32e6bc3b. Existing proposal/drawing/specification/study are ART-f26799db-88d6-45fe-8a36-b91083e4d26d, ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d, ART-e5e86ac5-b0ba-4151-af9e-710cca436898 and ART-b26f5064-3521-45b9-a51d-84118fd6d22f. On 2026-11-27, the coordinator reports observing the Pages settings page read-only in a browser signed in by the resident. The resident confirmed the page was visible but did not report its contents. The coordinator observed Pages disabled, Deploy from a branch, branch None, Save control, and no address or eligibility warning; no control was selected or saved. API has_pages:false and Pages GET 404 remain interpreted with the limits in the updated study. The resident selected automatic publication from main:/docs and states they will maintain the site; neither statement authorizes reserved changes. No implementation, build, settings change, publication or empirical test occurred.",
+        "proposal": "For registered project city-homepage (docs), create a single static docs/index.html with inline CSS, original wizard-city styling (not Emerald City), and links to https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. No external assets, forms, analytics, symlinks, custom workflow or other project files are proposed. The resident selected automatic branch publishing from main:/docs; future docs changes on main publish automatically. This is a design choice, not authorization. A separately gated workflow is an alternative only if separately reviewed and may require out-of-scope files or permissions; no change avoids public exposure but misses the requested outcome. After applicable delivery authorization, create and review only the approved file and run build, content, links, accessibility and exposed-file checks. Stop on failure or scope drift. Pages enablement, deployment/publication, security or permission changes and expenditure require separate resident authorization. After authorized publication at a confirmed actual address, record live reachability, content and both link results. Independent inspection and resident acceptance remain separate.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "Existing proposal ART-f26799db-88d6-45fe-8a36-b91083e4d26d and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d describe the bounded site and alternatives. Updated proposal ART-03a6489e-41b4-4292-8224-186e9f8267a1 and drawing ART-1fb66613-8b18-458b-b057-13e30e6f4c79 were captured by Records Officer."
+          },
+          {
+            "requirementId": "site-spec",
+            "disposition": "provided",
+            "evidence": "Existing specification ART-e5e86ac5-b0ba-4151-af9e-710cca436898 and revised specification ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f cover content, links, single-file design and future verification."
+          },
+          {
+            "requirementId": "pages-facts",
+            "disposition": "provided",
+            "evidence": "Revised study ART-60261964-8bdd-4a59-8394-48fa8087f9bf and the coordinator’s reported signed-in Settings > Pages observation dated 2026-11-27 record disabled status as displayed, Deploy from a branch, branch None, Save control, and no displayed address or eligibility warning. The resident confirmed page visibility but did not report its contents. API 404 remains ambiguous; the display does not prove a future save will succeed."
+          },
+          {
+            "requirementId": "risk-operations",
+            "disposition": "provided",
+            "evidence": "Revised study ART-60261964-8bdd-4a59-8394-48fa8087f9bf describes the one-file served target, auto-publication risk, resident-stated operator, manual Actions-result review, IP logging, limits, conditional recovery, cost boundaries and residual risks. Account-specific setup success, notifications, billing, actual traffic and empirical recovery remain unknown; no pre-authorization implementation or tests are claimed."
+          },
+          {
+            "requirementId": "verification",
+            "disposition": "provided",
+            "evidence": "Existing specification ART-e5e86ac5-b0ba-4151-af9e-710cca436898 and revised specification ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f separate authorized prepublication checks from post-authorization live verification. These future tests have not been performed and are not represented as application-stage evidence."
+          }
+        ],
+        "revision": 5,
+        "recordedAt": "2026-11-27T20:27:31.253Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        }
+      },
+      {
+        "screeningRevision": 2,
+        "reason": "Advisor application prepared against formal screening revision 2 for independent Chief Planner assessment. It carries forward the resident-selected destinations, automatic main:/docs publication choice, and stated maintenance intent without treating them as authorization. The proposal, interface, current Pages observations, bounded operations/risk plan, and future-only verification are documented in the cited saved artifacts. No Pages setting change, implementation, publication, or empirical test is claimed.",
+        "evidence": "Current canonical work order WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84 is triaged and contains formal screening revision 2. Prior applications and Planner assessments through assessment 5 were reviewed; application/assessment 5 applied to screening revision 1 and is not treated as current readiness after triage and re-screening. Current proposal ART-03a6489e-41b4-4292-8224-186e9f8267a1, drawing ART-1fb66613-8b18-458b-b057-13e30e6f4c79, interface/verification specification ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f, and Pages/operations study ART-60261964-8bdd-4a59-8394-48fa8087f9bf are saved under .city/artifacts/. The coordinator’s read-only observation of the Settings > Pages page in a browser signed in by the resident records Pages displayed disabled, source type Deploy from a branch, branch None, Save control, and no displayed address or eligibility warning; the resident confirmed page visibility but did not report its contents. No control was selected or saved. The API has_pages:false and Pages GET 404 are retained with their stated ambiguity. The resident selected automatic publication from main:/docs and states they will maintain the site; these are recorded choices/intents, not authenticated identity or authorization. No current site files exist in the reported workspace; the proposal bounds future implementation to one docs/index.html with inline CSS and no external assets, custom workflow, symlinks, or outside-docs changes. GitHub documentation and operational limits, IP logging, manual deployment-result review, conditional unpublish/redeploy, account-specific uncertainties, and residual risks are documented in ART-60261964. No build, accessibility, security, compatibility, publication, recovery, or live test has been performed; implementation and post-authorization tests are future acceptance evidence, not pre-authorization requirements.",
+        "proposal": "For registered project city-homepage (docs), create a single static docs/index.html with inline CSS, original wizard-city styling—not Emerald City—and links to https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. No external assets, forms, analytics, symlinks, custom workflow, or other project files are proposed. The resident selected automatic branch publishing from main:/docs; future docs changes on main publish automatically. This is a proposed design, not configuration or authorization. A separately gated workflow is an alternative only if separately reviewed; it may require outside-docs files or additional permissions. No change avoids public exposure but does not meet the requested outcome. After applicable delivery authorization, create and review only the approved file and perform the planned build, content, link, responsive/accessibility, and exposed-file checks. Stop on failure or scope drift. Pages enablement, deployment/publication, security or permission changes, and expenditure require separate resident authorization. After authorized publication at a confirmed actual address, record live reachability, content, and both link results. Independent inspection and resident acceptance remain separate.",
+        "answers": [],
+        "artifacts": [
+          {
+            "requirementId": "proposal",
+            "disposition": "provided",
+            "evidence": "ART-03a6489e-41b4-4292-8224-186e9f8267a1 (.city/artifacts/ART-03a6489e-41b4-4292-8224-186e9f8267a1.json) and drawing ART-1fb66613-8b18-458b-b057-13e30e6f4c79 (.city/artifacts/ART-1fb66613-8b18-458b-b057-13e30e6f4c79.json) describe the bounded static candidate, alternatives, resident-selected source, and scope."
+          },
+          {
+            "requirementId": "site-spec",
+            "disposition": "provided",
+            "evidence": "ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f (.city/artifacts/ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f.json) specifies content, both resident-selected destinations, wizard-city style, responsive/accessibility expectations, and observable future acceptance. The actual public address remains unknown and is not invented."
+          },
+          {
+            "requirementId": "pages-facts",
+            "disposition": "provided",
+            "evidence": "ART-60261964-8bdd-4a59-8394-48fa8087f9bf (.city/artifacts/ART-60261964-8bdd-4a59-8394-48fa8087f9bf.json) records the attributed read-only Pages UI observation, API results and ambiguity, proposed main:/docs target, host documentation, access constraints, and remaining account-specific limits. It does not claim successful setup or a confirmed address."
+          },
+          {
+            "requirementId": "risk-operations",
+            "disposition": "provided",
+            "evidence": "ART-60261964-8bdd-4a59-8394-48fa8087f9bf (.city/artifacts/ART-60261964-8bdd-4a59-8394-48fa8087f9bf.json) assesses public exposure, automatic publication from reported-unprotected main, resident-stated maintenance intent, manual failure review, IP logging, capacity/cost boundaries, conditional recovery, limitations, and residual risks. Tests and account-specific outcomes are explicitly not claimed."
+          },
+          {
+            "requirementId": "verification",
+            "disposition": "provided",
+            "evidence": "ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f (.city/artifacts/ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f.json) separates post-authorization implementation/build/content/accessibility/exposed-file checks from separately authorized post-publication live verification. None is claimed as already performed."
+          }
+        ],
+        "revision": 6,
+        "recordedAt": "2026-11-27T20:42:54.283Z",
+        "sourceOffice": "development-advisor",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        }
+      }
+    ],
+    "assessments": [
+      {
+        "applicationRevision": 1,
+        "outcome": "revise",
+        "reason": "Application revision 1 is a partial packet. The proposal, drawing and interface specification are useful, but the screening requirements pages-facts and risk-operations remain materially unresolved; exact intended public destinations also need confirmation. Readiness is not established.",
+        "evidence": "Independently reviewed the current canonical case and exact Advisor application revision 1. The Records Officer reports case SHA-256 e6be3895790eb891c128f58362a513a568d94eeacdfae0a67a0eadbd3496b118; hash not independently recomputed here. Proposal ART-f26799db-88d6-45fe-8a36-b91083e4d26d and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d describe a bounded docs candidate and alternatives. Specification ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 covers intended content and proposed checks, but does not establish exact plugin/repository destinations, Pages source, or public address. Preliminary study ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 identifies scenarios but leaves operational facts and residual risk unresolved. For screening requirement pages-facts, current Pages settings/source and publication/address, host restrictions, exact targets/dependencies, and required access or outside-docs changes are not established; obtain authorized read-only evidence through the Manager before proposing a mechanism. The Engineering Manager report ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 records local-only observations and no host-side review. For risk-operations, establish the actual served files and access model, accountable operator/maintenance coverage, notification and failure response, capacity and any cost, feasible unpublish/restore method and authority, and evidence-based residual risk. The optional exact plugin URL remains unanswered; do not assume it. Confirm the intended repository destination as well. No runtime, accessibility, security, compatibility, or live checks were performed, and no specialist review is evidenced. The existing screening's provisional classes are safety 2 and structural 2; no class-3 statement is indicated by the current evidence. Reassess screening if verified facts materially broaden impacts. No publication, Pages enablement, permission change, expenditure, implementation, or authorization is implied.",
+        "revision": 1,
+        "recordedAt": "2026-11-27T19:22:31.369Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.8.2"
+          }
+        }
+      },
+      {
+        "applicationRevision": 2,
+        "outcome": "revise",
+        "reason": "Application revision 2 remains incomplete: confirm the intended city-repository destination, establish current Pages facts through authorized read-only evidence, and complete the host-dependent risk and operations assessment. The resident-selected plugin URL is recorded; do not ask for it again. Return to Advisor through Manager, not to delivery.",
+        "evidence": "Chief Planner independently reviewed application revision 2 against formal screening revision 1 and all five requirements. The reported work-order SHA-256 a90bade043f5dd4c0b6d3f0102709ea3190d5082806d29dd12bc4c87b671b665 was not independently recomputed. Proposal: ART-f26799db-88d6-45fe-8a36-b91083e4d26d and drawing ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d provide a bounded docs candidate and alternatives; host feasibility remains dependent on Pages facts. Site-spec: ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 supplies proposed content and checks; application revision 2 records the resident-selected plugin URL https://github.com/WebeWizard/webe-city. ART-242e1068-908c-46c1-ba9d-c59d756eee06 says curl rejected --netrc- before a request; no HTTP response occurred, so accessibility remains unverified. Confirm the intended city-repository destination; ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 reports a local remote only, not resident intent or host ownership. Pages-facts: obtain authorized current read-only evidence of settings, source, existing publication/address, restrictions, exact targets and dependencies, required access and any outside-docs changes before selecting a mechanism. Risk-operations: ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 identifies scenarios and candidate controls but does not establish served files, access model, accountable operator and maintenance coverage, notification, capacity, cost, feasible unpublish/restore method or residual risk. Manager should coordinate competent investigation and Advisor should revise the study using host evidence. Verification: ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 proposes prepublication and post-authorization live checks, evidence and failure handling; these are not completed tests. Compatibility, actual exposure and recovery remain unassessable until the host method is known. No runtime, accessibility, security, compatibility or live test is claimed. Screening classes remain provisional safety 2 and structural 2; re-screen if verified impacts warrant it. Publication, Pages enablement, deployment, security or permission changes and expenditure remain resident-reserved. No implementation or authorization is implied.",
+        "revision": 2,
+        "recordedAt": "2026-11-27T19:33:34.446Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.9.0"
+          }
+        }
+      },
+      {
+        "applicationRevision": 3,
+        "outcome": "revise",
+        "reason": "Application 3 records both intended links, but current Pages facts and the host-dependent risk and operations assessment remain missing. Coordinate authorized read-only investigation and return to Advisor; do not proceed to delivery.",
+        "evidence": "Independently reviewed application 3 against formal screening 1 and all five requirements. Proposal and drawing ART-f26799db-88d6-45fe-8a36-b91083e4d26d and ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d describe the docs candidate and alternatives, subject to host feasibility. Site-spec and verification: application 3 cites ART-dddf8c42-010a-4e76-a05b-25672f1e2e82 plus resident statements; saved revised spec ART-09f8da08-dd7c-42c4-8f2d-40fd9d9832c0 supersedes that preserved artifact and records both intended URLs and planned checks. ART-242e1068-908c-46c1-ba9d-c59d756eee06 reports failure before an HTTP request, not reachability. Pages-facts: ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 is local-only; obtain authorized current read-only settings, source, address, restrictions, exact targets, dependencies, access and outside-docs changes before choosing a mechanism. Risk-operations: ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 identifies scenarios but leaves actual served files, least privilege, operator, maintenance, notification, capacity, cost, feasible unpublish/restore and residual risk unresolved. Manager should coordinate competent input and Advisor should complete the study using host evidence. Compatibility, exposure and recovery remain unassessable until then. No runtime, accessibility, security, compatibility or live check is claimed. Screening classes remain provisional safety 2 and structural 2; re-screen if evidence warrants. Pages enablement, deployment, publication, security or permission changes and expenditure remain resident-reserved. No authorization is implied.",
+        "revision": 3,
+        "recordedAt": "2026-11-27T19:41:50.332Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.9.0"
+          }
+        }
+      },
+      {
+        "applicationRevision": 4,
+        "outcome": "revise",
+        "reason": "Application revision 4 remains materially incomplete against the current formal screening: current Pages configuration/source and effective requirements are not established, and the host-dependent operating evidence and residual-risk evaluation remain open. The proposal, interface specification, and future verification plan are otherwise substantially provided.",
+        "evidence": "Independently reviewed screening revision 1 and the exact Advisor application revision 4, including ART-e5e86ac5-b0ba-4151-af9e-710cca436898 and ART-b26f5064-3521-45b9-a51d-84118fd6d22f, against all five screening requirements and applicable adopted development-applications, building-permits, council-delegation, infrastructure-management, and resources-and-workforce policies. Available screening context snapshot digest: 088368a3724f4d29a8cba5e3107bd48aa530ce738d562f2136661ee31d1dc4cc. Proposal: ART-f26799db-88d6-45fe-8a36-b91083e4d26d and ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d describe a bounded docs candidate and alternatives. Site-spec: the current specification records the resident-selected destinations, main:/docs preference, and interface expectations; choices do not establish reachability or feasibility. Pages-facts remains materially incomplete: reported has_pages:false and Pages GET 404 do not establish current settings/source or explain the 404; restrictions, effective access requirements, account-specific eligibility, actual target/source and served-file dependencies remain unconfirmed. Risk-operations remains materially incomplete: although scenarios and candidate controls are described, the actual access model and served files, accountable operator coverage/notification, capacity and account-specific cost, feasible host-specific recovery, and evidence-based residual risk remain open. Manager should coordinate authorized read-only evidence and return the packet to Advisor. Verification is adequately specified as future work: implementation/build, content, accessibility and exposed-file checks, and post-authorization live reachability/content/link checks are not claimed as completed and are not themselves application-stage failures. The resident-selected automatic publication from main:/docs and reported unprotected main are a material operational risk to carry forward; no settings change, publication, test, or authorization is implied. Screening classes remain safety 2 and structural 2 on current evidence; re-screen if verified impacts broaden the scope. Pages enablement, deployment/publication, security or permission changes, and expenditure remain resident-reserved. The prior Planner assessments and ART-76cee74f-c1ba-48e3-9cd0-0d2f32e6bc3b were reviewed; revision 4 addresses link-selection findings but not the material host-facts and operations gaps.",
+        "revision": 4,
+        "recordedAt": "2026-11-27T20:15:21.479Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        }
+      },
+      {
+        "applicationRevision": 5,
+        "outcome": "ready",
+        "reason": "Application revision 5 satisfies the material preauthorization requirements of formal screening revision 1 on the evidence presented. This is a readiness finding only; it does not authorize implementation, Pages settings changes, deployment, publication, expenditure, or permissions changes.",
+        "evidence": "Independently reviewed the canonical replacement work order WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84, current formal screening revision 1 and its five requirements, exact Advisor application revision 5, the revised proposal ART-03a6489e-41b4-4292-8224-186e9f8267a1, drawing ART-1fb66613-8b18-458b-b057-13e30e6f4c79, specification ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f and study ART-60261964-8bdd-4a59-8394-48fa8087f9bf, adopted development-applications, building-permits, council-delegation, infrastructure-management and resources-and-workforce policies, and prior independent assessments including assessment 4 and its evidence. Screening requirements: proposal and drawing bound the candidate to city-homepage (docs), compare a static page, a separately reviewed generated/workflow alternative, and no change, and explain value, operating implications and scope; the current specification states content, resident-selected plugin and repository URLs, interface expectations and planned checks; the study supplies attributed Pages observations and host facts with limits, identifies the proposed main:/docs target, dependencies, restrictions/access uncertainties, operator statement, automatic-publication exposure, capacity/cost uncertainty, failure handling and conditional host-documented recovery; the specification separates future prepublication checks from post-authorization live verification. Assessment 4 correctly found Pages facts and host-dependent operations incomplete in application revision 4. Revision 5 adds the coordinator-reported read-only observation of the settings page in a browser signed in by the resident: Pages displayed disabled, Deploy from a branch, branch None, Save control, no displayed address or eligibility warning; the resident confirmed page visibility but did not report its contents. No setting was changed. Treat this as an attributed observation, not proof a future save will succeed or authenticated identity/authority. The reported API has_pages:false and Pages GET 404 remain ambiguous. The study also reports repository public, default branch main, Actions enabled, workflow default permissions read, main reported unprotected, no existing docs/tracked docs or workflow paths, and host documentation; account-specific restrictions/setup success, effective access, actual address, billing/traffic and recovery success remain unknown and are not asserted. The resident-selected main:/docs source and stated maintenance role are recorded as intent, not authorization or authenticated commitment. These acknowledged uncertainties do not leave a material screening requirement unanswered at application stage because the packet identifies the mechanism and stop conditions without claiming configuration or successful setup. The residual automatic publication risk from reported unprotected main, public exposure, host IP logging, absent established automatic notification, and conditional untested recovery are disclosed for the resident's reserved decision. Screening classes remain safety 2 and structural 2 on current evidence; re-screen if verified facts materially broaden effects. No implementation, build, accessibility, security, compatibility, publication, settings change, live test, or recovery test has been performed or is required to establish this readiness finding. Pages enablement, deployment/publication, security/permission changes and expenditure remain resident-reserved; this assessment authorizes none.",
+        "revision": 5,
+        "recordedAt": "2026-11-27T20:31:00.008Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        }
+      },
+      {
+        "applicationRevision": 6,
+        "outcome": "ready",
+        "reason": "Application 6 is ready for Council/resident consideration against formal screening 2: all five material requirements are addressed at proportionate planning level with bounded scope and candid evidence limits. Readiness is not authorization, host eligibility, clearance, or completion. Pages enablement, deployment/publication, security or permission changes, and expenditure remain resident-reserved. Stop and re-screen for a different target, broader scope, added permissions, or materially greater impact; resolve applicable privacy/hosting obligations before publication.",
+        "evidence": "Independent review of canonical root /home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-urban-giggle, case WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84, current formal screening 2 and exact Advisor application 6; reviewed prior applications/assessments 1–5, including assessment 5, which applied to screening 1 and is not substituted for this review. Screening requires a bounded proposal, interface specification, Pages facts, risk/operations study, and future verification plan; all are supplied. Proposal ART-03a6489e-41b4-4292-8224-186e9f8267a1 and diagram ART-1fb66613-8b18-458b-b057-13e30e6f4c79 compare one static docs/index.html with inline CSS, a separately reviewed gated workflow alternative, and no change; define city-homepage (docs) boundary, resident value and maintenance/cost/reversibility limits. Spec ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f defines Repository City statement, original wizard-city styling, responsive/accessibility expectations, selected links https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis, and observable future acceptance. Study ART-60261964-8bdd-4a59-8394-48fa8087f9bf reports the coordinator's read-only, resident-visible Pages UI observation: disabled, Deploy from a branch, branch None, no displayed address or eligibility warning; no setting saved. API has_pages:false and GET 404 are ambiguous. main:/docs is selected but not configured. Reported public repository, unprotected main, automatic future publication, host IP logging, service limits, manual Actions-result review, and conditional documented unpublish/redeploy are bounded evidence, not independently verified guarantees. Effective access, eligibility, actual address, traffic/billing and recovery success remain unknown; no automatic alert is established. Resident maintenance is stated intent, not authenticated appointment or commitment. These facts identify the mechanism and risks without claiming setup success. The proposal/study limit future files and name stop conditions; neither asserts unsupported host facts. Verification separates authorized prepublication file/content/link/responsive/accessibility/build checks from live checks only after separate publication authorization and confirmed address, with evidence, stop-on-failure, independent inspection, and separately authorized recovery. No implementation, build, accessibility, security, compatibility, publication, live, or recovery test is claimed or prerequisite to this planning assessment. Screening assigns safety 2 and structural 2, meeting building-permits floors for security/public interface; current bounded scope and disclosed unprotected-main exposure do not establish class 3, but re-screen if verified effects broaden. Registered project is city-homepage at docs; repository district denotes ownership, not permission. No docs site or site tests are available in this workspace; no adopted zoning policy/map is shown. Applicable adopted-policy references: policies/development-applications.md, policies/building-permits.md, policies/council-delegation.md, policies/infrastructure-management.md, policies/resources-and-workforce.md, and policies/records-and-privacy.md. City adoption and case records are unauthenticated. No specialist clearance, spending, publication, delivery, or authorization is implied.",
+        "revision": 6,
+        "recordedAt": "2026-11-27T20:46:26.737Z",
+        "sourceOffice": "chief-planner",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.10.0"
+          }
+        }
+      }
+    ],
+    "statements": [],
+    "verifications": [],
+    "completionNotices": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ASN-563845e8-292d-4132-9b02-b6e2a19e67b6",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "staffId": "municipal-software-engineer",
+  "assignedBy": "engineering-manager",
+  "reason": "Ordinary single-file static HTML homepage in city-homepage/docs; general engineer can plan and implement without a defined framework specialty. Publication and Pages enablement follow the resident decision and permit conditions; independent inspection remains separate.",
+  "createdAt": "2026-11-27T21:03:15.858Z",
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

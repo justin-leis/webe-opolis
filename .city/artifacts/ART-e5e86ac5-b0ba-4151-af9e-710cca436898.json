@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-e5e86ac5-b0ba-4151-af9e-710cca436898",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — current interface and publishing specification",
+  "kind": "specification",
+  "format": "markdown",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": "ART-09f8da08-dd7c-42c4-8f2d-40fd9d9832c0",
+  "recordCategory": "working-draft",
+  "content": "# Wizard city homepage — current interface and publishing specification\n\nRoot: `/home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-urban-giggle`. Case WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84; formal screening revision 1. Working draft, not an assessment, authorization or publication decision.\n\n## Outcome and scope\nCreate an original wizard-city-themed homepage, not an Emerald City imitation, saying the city is managed by the Repository City plugin and linking to https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. The registered scope is `city-homepage` (`docs`). The resident states they will maintain the site and own the repository; this is a resident statement, not authenticated identity or publishing authority.\n\nThe smallest candidate is a static page and necessary local assets under `docs`, with a top-level `index.html`. The workspace was reported to have no current `docs/` directory. No forms, analytics or visitor tracking are proposed. A generated site or publishing workflow is not included.\n\n## Conditional publishing design\nThe resident selected automatic publication from branch source `main:/docs`. Future pushes or merges to `main` affecting `docs` would publish automatically. This is a design choice only; despite reported `has_pages: false`, current Pages status and source remain unconfirmed, and no publication is authorized.\n\nCoordinator-reported facts dated 2026-11-27: repository is public; default branch is `main`; `has_pages` is false; Pages GET returned 404; Actions are enabled for all; workflow default permissions are read; main is reported unprotected; branch-rules GET returned an empty list; current main commit is `d2cc55a3b872142daff8f6f41f746019bdbb7022`. The workspace was reported to lack `docs/` and tracked `docs/**` and `.github/workflows/**`. The 404 does not establish why Pages settings were not returned. No current source or public address is identified. These are attributed report facts, not independent observations by the Advisor.\n\nGitHub documentation says branch publishing can use `/docs`, deployment uses Actions, a missing source folder fails the build, branch publishing defaults to Jekyll unless disabled, and the entry file belongs at the source root. This proposal assumes neither a custom workflow nor disabling Jekyll. It does not imply any permission change. If setup requires an additional workflow, permission or outside-`docs` change, stop for separate review and authority.\n\nThe expected project-site address format is `owner.github.io/repository`; it is not an actual confirmed address. Confirm the effective address only after separately authorized setup.\n\n## Interface and acceptance plan\nUse descriptive titles and semantic headings, clearly named links, keyboard-operable navigation, visible focus, readable contrast, usable narrow/wide layouts and suitable alternative text. Keep the exposed files limited to reviewed homepage content/assets; include no credentials, secrets or unrelated documents. No forms, analytics or visitor tracking are proposed. After authorized implementation, record actual content/link, responsive, keyboard/accessibility and exposed-file checks. These are plans, not completed tests.\n\nOnly after applicable resident authorization and publication at a confirmed address, record the address, check time, method and actual reachability, expected-content and both-link results. Stop on failure or scope drift. Independent Inspector review and resident final acceptance remain separate.",
+  "createdAt": "2026-11-27T20:09:30.675Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

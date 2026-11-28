@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-03a6489e-41b4-4292-8224-186e9f8267a1",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — proposal and current project facts",
+  "kind": "plan",
+  "format": "markdown",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": "ART-f26799db-88d6-45fe-8a36-b91083e4d26d",
+  "recordCategory": "working-draft",
+  "content": "# Wizard city homepage — proposal and current project facts\n\nCase WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84; formal screening revision 1. Working draft, not authorization or assessment.\n\n## Outcome, choices and boundary\nCreate an original wizard-city-themed homepage—not an Emerald City imitation—stating that the city is managed by Repository City and linking to https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. Registered project scope is city-homepage (`docs`). The resident selected automatic publication from `main:/docs` and states they will maintain the site. These are design and operator-intent statements, not authorization, authenticated identity or permission to change settings.\n\n## Smallest candidate and alternatives\nCandidate: one static `docs/index.html` with inline CSS; no external assets, forms, analytics, symlinks, custom workflow or build dependency. The current workspace was reported to have no `docs/` directory or tracked `docs/**` paths, so the file is a future authorized deliverable, not pre-authorization evidence.\n\nThe coordinator reports observing the settings page read-only in a browser signed in by the resident on 2026-11-27. The resident confirmed the page was visible but did not report its contents. The coordinator observed it displayed Pages as disabled, source type “Deploy from a branch,” branch “None,” and a Save control. No live address or eligibility warning was displayed. No setting was changed or saved. The Pages API GET 404 remains ambiguous; it does not independently establish current state or why the resource was not returned. GitHub documentation describes public-repository Pages eligibility, branch publishing from `/docs`, Actions-based deployment, default Jekyll behavior unless disabled, and a top-level entry file. The proposed source is `main:/docs`; it is not configured.\n\nAlternative: a separately gated publishing workflow only if later justified and separately reviewed; it could require files outside `docs`, additional permissions or a scope change. No change avoids public exposure but does not meet the resident outcome. No paid service is proposed. If setup is unavailable, requires payment or needs a permission/scope change, stop and obtain the applicable resident decision.\n\n## Sequence and acceptance\nAfter authorization, implement only the approved `docs/index.html`, then review the actual file and run authorized content, link, build, responsive/accessibility and exposed-file checks. Because the resident chose branch publishing, future changes to `docs` on `main` automatically publish. After the separate authorization required for Pages enablement/publication, record the actual address and live results for reachability, content and both links. Review the Actions deployment result after each intended change; stop on failure or scope drift. Use only a confirmed, separately authorized recovery method. Independent inspection and resident acceptance remain separate.\n\nThe project-site address format is generally `owner.github.io/repository`; no actual address is confirmed. No implementation, setting change, build, publication, live test or authorization is claimed.",
+  "createdAt": "2026-11-27T20:24:19.870Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

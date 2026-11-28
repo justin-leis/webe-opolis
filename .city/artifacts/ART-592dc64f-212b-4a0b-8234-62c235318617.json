@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-592dc64f-212b-4a0b-8234-62c235318617",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Post-Council coordination brief — Wizard city homepage",
+  "kind": "coordination-brief",
+  "format": "markdown",
+  "content": "# Post-Council coordination brief\n\n**Authoring office:** City Manager (attributed; not authenticated)  \n**Case:** `WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84`  \n**Resident-selected outcome:** A wizard-city homepage for the registered `city-homepage` project at `docs`. GitHub Pages publication is requested only under separate resident authorization.\n\n## Context and preparation\n\nThe coordination considered the adopted charter and configuration, district and project registers, and adopted development-applications, council-delegation, infrastructure-management, and records/privacy policies. The project register identifies `city-homepage` at `docs`.\n\nThe Records Officer applied ordinary lifecycle progression from `triaged` to `proposed` to `awaiting-approval`, retaining preparation: screening revision 2, Advisor application revision 6, and the independent Chief Planner ready assessment revision 6. These are preparation and readiness records, not authorization.\n\n## Council review\n\nCouncil independently reviewed the case and applied referral decision `DEC-7c13211b-335a-46d8-a9c6-7fc675c650b8`, reserving security, deployment, and publication for the resident. The review is documented in `ART-3516177c-0063-459f-9494-3ab339e18242`. No authorization was recorded.\n\n## Current constraints and uncertainty\n\nInstitutional review is available but not due. The status inventory records no infrastructure assets, findings, due obligations, stale services, or coverage gaps; this does not establish service health. The Planner reports horizon and capacity as unknown. The Engineering Manager reports condition, security, and recovery as unverified.\n\nThe resident must decide the referral. `main:/docs` is a proposed source/target, not enabled or authorized. Effective permissions, Pages eligibility, costs, public address, accessibility, and recovery remain unknown. No delivery, publication, or resident decision has occurred.\n\n## Preservation boundary and sources\n\nDo not change the original work order `WO-ce0b2be1-7e0c-464b-b17c-814ad36e3ccd` or settings. The replacement case remains separate. Decisions and office-attributed records are unauthenticated local evidence; this brief creates no authority.\n\nCurrent canonical references observed for this capture: case `.city/work-orders/WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84.json` (SHA-256 `3c8a9d97480e200428e17c921f2cd856130ef908503757a3682a8a45bd8f401f`); referral `.city/decisions/DEC-7c13211b-335a-46d8-a9c6-7fc675c650b8.json` (SHA-256 `3140b9ad8f134a2e15646a32e72f46c05b67dfda948663581dc9ab1bad451f5f`); Council review `.city/artifacts/ART-3516177c-0063-459f-9494-3ab339e18242.json` (SHA-256 `af74783c90c515ac5fb40da600bb46327344a9dc481df6a4b589ed021c646bd9`). These digests are local record metadata, not proof of authenticity.",
+  "sourceOffice": "city-manager",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "filed-work-product",
+  "createdAt": "2026-11-27T20:52:39.033Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

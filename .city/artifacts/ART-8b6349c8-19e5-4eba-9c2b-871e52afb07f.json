@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-8b6349c8-19e5-4eba-9c2b-871e52afb07f",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Independent homepage browser evidence",
+  "kind": "inspection-report",
+  "format": "markdown",
+  "content": "## Scoped verdict: pass\n\nRoot: `/home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-urban-giggle`  \nCase: `WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84`  \nRevision: staged `docs/index.html`, SHA-256 `089760a5ff6e7276537547d2996a7bb39ceaf670bb79f3c9a0c9575b1d5b0b9b`\n\n| Check | Result | Evidence |\n|---|---|---|\n| Tab / Shift-Tab | **Pass** | Firefox keyboard actions moved focus first link → second → first. |\n| Enter | **Pass** | Both links produced trusted click events with the expected URLs. Default navigation was prevented. |\n| Visible focus | **Pass** | Both narrow screenshots show the focus outline; rendered samples measured 14.30–14.41:1 against adjacent pixels. |\n| Narrow / wide rendering | **Pass** | Inspected screenshots at 375×812 and 1440×900; content and links remained readable. |\n| Text contrast | **Pass, sampled** | Representative rendered backgrounds measured 6.47–17.05:1 against their text colors. This is not an exhaustive contrast audit. |\n\n**Commands and results:** `sha256sum docs/index.html` and `git --no-pager show :docs/index.html | sha256sum` both returned the requested digest. The Firefox 160.0.1 BiDi run used Node keyboard `input.performActions`; it exited 0 after the browser was terminated and its temporary profile removed. Its exact inline command is in tool session **1863**. Screenshot pixels were decoded with `ffmpeg` in sessions **1866** and **1868**; both exited 0. Kernel filtering denied browser outbound connections.\n\nScreenshots: `/tmp/city-browser-evidence-dTYQSy/`. They are temporary, not filed records. Live navigation, publication, and full delivery compliance were not tested.\n\n**Persistence pending:** please forward this report unchanged through City Manager to the Records Officer. No lifecycle or record changes were made. Inspection verdict not recorded; acceptance remains the resident’s decision.",
+  "sourceOffice": "building-inspector",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "filed-work-product",
+  "createdAt": "2026-11-27T21:25:15.812Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

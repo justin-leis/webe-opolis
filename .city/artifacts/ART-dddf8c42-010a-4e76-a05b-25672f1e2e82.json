@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-dddf8c42-010a-4e76-a05b-25672f1e2e82",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — interface and verification specification",
+  "kind": "specification",
+  "format": "markdown",
+  "content": "# Wizard city homepage — interface and verification specification\n\nCase WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84; screening revision 1. Proposed specification; no implementation or test has occurred.\n\n## Intended interface\nA concise city introduction with a clear page title; an explicit statement that the city is managed by the Repository City plugin; clearly named links to the intended plugin and repository destinations; and original wizard-city visual styling that does not resemble the Emerald City. Do not add forms, visitor tracking or data collection absent separately reviewed scope. Use semantic headings and links, keyboard-operable navigation, visible focus, readable contrast, useful alternative text where needed, and layouts that remain usable at narrow and wide viewport sizes. Keep any necessary assets local and within docs unless a separately reviewed scope change is authorized.\n\n## Destinations and hosting assumptions\nThe canonical plugin URL, repository URL, Pages source, public address, host restrictions and publication mechanism are not confirmed. Resolve exact destinations and actual host facts before treating compatibility or links as established. Do not invent a domain, workflow, CNAME, build process or external target.\n\n## Proposed prepublication acceptance evidence\nAfter implementation is separately authorized: inspect the rendered content against the canonical criteria; confirm the exact intended plugin and repository destinations; check navigation and keyboard focus; review representative narrow and wide layouts and accessibility expectations; and review the exact files that would be served for unintended content or data. Record the implementation revision, method, evidence and actual results. These checks are proposed and unperformed. Static source review alone does not establish runtime, accessibility, security, compatibility or performance results.\n\n## Publication and live verification\nPages enablement, deployment/publication, security or permission changes, expenditure and other reserved actions require their applicable separate resident authorization. After authorized publication and confirmation of the public address, record that address, check time, method/evidence and actual outcomes for: page reachability; expected content; and plugin and repository links resolving to their confirmed intended destinations. Do not report a check as passed before it is performed. If verification fails, stop and follow only an established and separately authorized recovery/unpublish route. Independent Inspector review and resident final acceptance remain separate.",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "working-draft",
+  "createdAt": "2026-11-27T19:14:34.489Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.8.2"
+    }
+  }
+}

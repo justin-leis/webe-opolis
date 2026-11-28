@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-09f8da08-dd7c-42c4-8f2d-40fd9d9832c0",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — revised interface and verification specification",
+  "kind": "specification",
+  "format": "markdown",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": "ART-dddf8c42-010a-4e76-a05b-25672f1e2e82",
+  "recordCategory": "working-draft",
+  "content": "# Wizard city homepage — revised interface and verification specification\n\nRoot: /home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-cautious-carnival. Case WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84; formal screening revision 1. Working draft, not an assessment or authorization.\n\n## Outcome and scope\nCreate a concise city introduction stating that Repository City manages the city, with original wizard-city styling that does not resemble the Emerald City. The selected outcome also includes separately authorized GitHub Pages enablement, publication and live verification. The smallest candidate is a static homepage and necessary local assets under registered project city-homepage, docs. No build dependency, workflow, domain, host source, outside-docs change or permission increase is assumed. A generated site is an alternative if verified needs justify its added dependencies and maintenance; no change avoids new exposure but does not achieve the outcome. Compatibility, actual costs and reversibility depend on host facts.\n\n## Interface and drawing\nVisitor browser -> confirmed public address and actual Pages source, both currently unknown -> proposed docs homepage and local assets. The homepage links to the resident-selected Repository City plugin destination https://github.com/WebeWizard/webe-city and this workspace repository destination https://github.com/justin-leis/webe-opolis. These choices do not establish ownership, accessibility, safety or permission to publish. The plugin check in ART-242e1068-908c-46c1-ba9d-c59d756eee06 failed locally before an HTTP request; no accessibility result exists. No operator or recovery method is established by this drawing.\n\nUse a descriptive title, semantic headings and clearly named links, keyboard-operable navigation, visible focus, readable contrast, useful alternative text where needed, and usable narrow and wide layouts. No forms, visitor tracking or data collection are included. Keep necessary assets local and in docs unless a separately reviewed scope change is authorized.\n\n## Planned acceptance and operations\nAfter applicable delivery authorization, record the implementation revision, methods and actual results for content and intended destinations, responsive layouts, keyboard and accessibility behavior, and the exact files and dependencies proposed for serving. These checks are planned, not performed. Before proposing a host mechanism, obtain current read-only evidence of Pages source, settings, address, restrictions, targets, dependencies and access, and any outside-docs changes. Establish an accountable operator, maintenance coverage, notification, capacity, cost and feasible unpublish/restore method. The external host is not presumed city-owned.\n\nOnly after separate resident authorization for applicable reserved actions and publication at a confirmed address, record the address, check time, method and actual reachability, expected-content and plugin/repository-link results. On failure or scope drift, stop, preserve evidence and notify the established operator; use only an established and separately authorized recovery method. Independent Inspector review and resident final acceptance remain separate.\n\n## Evidence limits\nThe local report ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 reports no local docs tree or tracked docs/.github paths at observation time and no host-side review. Pages facts and the host-dependent risk and operations assessment remain missing. Preliminary study ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 identifies exposure, access, stale-publication and maintenance scenarios but does not establish residual risk. No runtime, performance, security, accessibility, compatibility or live checks are claimed. Publication, Pages enablement, deployment, security or permission changes and expenditure remain resident-reserved.",
+  "createdAt": "2026-11-27T19:38:07.783Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.9.0"
+    }
+  }
+}

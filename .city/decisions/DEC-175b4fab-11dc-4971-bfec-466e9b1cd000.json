@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "id": "DEC-175b4fab-11dc-4971-bfec-466e9b1cd000",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "kind": "authorization",
+  "workOrderIds": [
+    "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84"
+  ],
+  "outcome": "authorize",
+  "decidedBy": "resident",
+  "basis": "resident-decision",
+  "routineClass": null,
+  "reservedMatters": [
+    "security",
+    "deployment",
+    "publication"
+  ],
+  "reason": "Resident selected ‘Authorize the scoped work, Pages enablement and public publication’ in this conversation. This authorizes only one static docs/index.html, enabling GitHub Pages from main:/docs, and publishing it; future main docs changes will publish automatically. The resident acknowledged main is currently unprotected and GitHub logs visitor IP addresses. No other security/permission changes, paid services, or files outside docs are authorized; if any are needed, stop for a separate resident decision. Eligibility, address, billing, and recovery remain unverified and are not represented as cleared. An implementation plan and independent inspection remain required. This is a resident declaration, not authenticated identity or authority to expand scope.",
+  "subject": {
+    "workOrderSha256": "3c8a9d97480e200428e17c921f2cd856130ef908503757a3682a8a45bd8f401f",
+    "charterSha256": "06e44c88815b5a55c2cfb40c6c4f92821a7818533d7d00dca7e2a3d7bcead6ed",
+    "delegationPolicySha256": "67cb8e6f1ddf5b5986cda39ef880356645252df724b09604b1e2e7495bea1f53"
+  },
+  "evidence": {
+    "declaredBy": "resident",
+    "reference": "Direct resident selection in this conversation; title: Authorize the scoped work, Pages enablement and public publication. Declaration not authenticated.",
+    "authenticated": false
+  },
+  "permit": {
+    "permitId": "PMT-534ae846-e86c-4747-9fc0-12a8279c9b3c",
+    "safetyClass": 2,
+    "structuralClass": 2,
+    "issuedAt": "2026-11-27T21:02:07.842Z",
+    "conditions": [
+      {
+        "id": "implementation-plan",
+        "description": "Before implementation, record an implementation plan limited to one static docs/index.html and the resident-selected main:/docs Pages source. If the plan or work requires files outside docs, other security/permission-control changes, or paid services, stop and seek a separate resident decision; none is authorized."
+      },
+      {
+        "id": "independent-inspection",
+        "description": "Before Pages enablement or public publication, an independent inspector must inspect the exact docs/index.html revision and record the result, including that the authorized file scope is respected. Do not enable or publish if inspection fails or identifies a need for excluded work; stop for a separate resident decision."
+      },
+      {
+        "id": "pages-result",
+        "description": "Record the actual Pages source and setup result and, if successful, the actual public address; do not assume eligibility, address, billing, or recovery. If setup requires any paid service, outside-docs file, or other security/permission-control change, stop before that action for a separate resident decision."
+      }
+    ],
+    "rightOfWay": [],
+    "commencementDeadline": "2026-12-27",
+    "inactivityDays": 30
+  },
+  "createdAt": "2026-11-27T21:02:07.842Z",
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

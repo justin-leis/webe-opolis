@@ -9,11 +9,11 @@
   "createdAt": "2026-11-20T04:44:27.808Z",
   "governance": "adopted",
   "adoption": {
-    "adoptedOn": "2026-11-21",
-    "recordedAt": "2026-11-21T20:09:42.663Z",
+    "adoptedOn": "2026-11-27",
+    "recordedAt": "2026-11-28T01:26:17.017Z",
     "charter": {
       "path": "charter.md",
-      "sha256": "06e44c88815b5a55c2cfb40c6c4f92821a7818533d7d00dca7e2a3d7bcead6ed",
+      "sha256": "573af4ed18911d3828d29288e8c88b787275df9762b1fbb15bf7c8377b4506af",
       "version": null
     },
     "policies": [
@@ -31,7 +31,7 @@
       },
       {
         "path": "policies/council-delegation.md",
-        "sha256": "67cb8e6f1ddf5b5986cda39ef880356645252df724b09604b1e2e7495bea1f53"
+        "sha256": "ee1368478b383eb7e58ed8ecb62936cd06b3f7e799c454433e00466c3a690580"
       },
       {
         "path": "policies/development-applications.md",
@@ -64,8 +64,8 @@
     ],
     "evidence": {
       "rule": "resident-declaration",
-      "declaredBy": "Repository owner",
-      "reference": "User explicitly requested adoption of the revised workforce policy after updating the plugin source in this conversation; this declaration is not authenticated.",
+      "declaredBy": "resident",
+      "reference": "Resident approved the focused merge-sequencing amendment in this conversation; identity is not authenticated.",
       "authenticated": false
     },
     "history": [
@@ -257,6 +257,69 @@
         },
         "supersededAt": "2026-11-21T20:09:42.663Z",
         "summary": "Incorporate the updated class-3 readiness preparation policy while preserving existing local safeguards."
+      },
+      {
+        "adoptedOn": "2026-11-21",
+        "recordedAt": "2026-11-21T20:09:42.663Z",
+        "charter": {
+          "path": "charter.md",
+          "sha256": "06e44c88815b5a55c2cfb40c6c4f92821a7818533d7d00dca7e2a3d7bcead6ed",
+          "version": null
+        },
+        "policies": [
+          {
+            "path": "policies/authority-and-policy.md",
+            "sha256": "42bf18f099e55551a2dedb3a0577dea9deede628230bef88abdfc20fc3285dfb"
+          },
+          {
+            "path": "policies/building-permits.md",
+            "sha256": "d02d1f6af97758e3c1475332ea2835b2a8a725797d1f7d03807241f11dc9b4be"
+          },
+          {
+            "path": "policies/continuity-and-accountability.md",
+            "sha256": "6989b1a1c3a6932f0da33074d741b2ef6530477ce08895830a803579c5aad69c"
+          },
+          {
+            "path": "policies/council-delegation.md",
+            "sha256": "67cb8e6f1ddf5b5986cda39ef880356645252df724b09604b1e2e7495bea1f53"
+          },
+          {
+            "path": "policies/development-applications.md",
+            "sha256": "089bc537ab6d10da9b4c3c8e9172795d567f7fabffa3da3d3d66ddc307800ee5"
+          },
+          {
+            "path": "policies/infrastructure-management.md",
+            "sha256": "27ed0c4b4b6b76d48409df0264b98ca9237b0b6f808c7dcb5b0380945f2986a1"
+          },
+          {
+            "path": "policies/institutional-review.md",
+            "sha256": "7dee97bd129bd0640b1bfa3ceb89085a9150b60b59a236efa6affeba45b3bb4e"
+          },
+          {
+            "path": "policies/records-and-privacy.md",
+            "sha256": "8a9c0d0df922bbd6711e6819c4590c6ebf5f104bafe2ca311253350ad25c1d5e"
+          },
+          {
+            "path": "policies/resources-and-workforce.md",
+            "sha256": "cfbb7204b4d2549132a73f2525dfcf93f2823ed2b9711ff125348e126ecedc8b"
+          },
+          {
+            "path": "policies/service-catalogue.md",
+            "sha256": "7e62154d4b79612e261f0b9bbf4484bcf27b377ea780169b1d51da7a564cd151"
+          },
+          {
+            "path": "policies/workforce-delegation.md",
+            "sha256": "adcfef48e43a3771e78eabaaa1ae14a7ace580cdc5cc8f67823015ea34a4ccf9"
+          }
+        ],
+        "evidence": {
+          "rule": "resident-declaration",
+          "declaredBy": "Repository owner",
+          "reference": "User explicitly requested adoption of the revised workforce policy after updating the plugin source in this conversation; this declaration is not authenticated.",
+          "authenticated": false
+        },
+        "supersededAt": "2026-11-28T01:26:17.017Z",
+        "summary": "Allow resident merge at the planned point while retaining independent final inspection and acceptance."
       }
     ]
   }
