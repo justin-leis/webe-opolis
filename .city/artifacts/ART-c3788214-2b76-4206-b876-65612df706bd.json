@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-c3788214-2b76-4206-b876-65612df706bd",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "GitHub Pages live verification",
+  "kind": "verification",
+  "format": "markdown",
+  "content": "# GitHub Pages live verification\n\nWork order: `WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84`.\nPermit: `PMT-534ae846-e86c-4747-9fc0-12a8279c9b3c`.\nSetup evidence: `ART-21feeb68-7ed6-4223-9e56-8361bb30ab9a`.\n\nAt 2026-11-28 01:36:21 UTC, GitHub Pages reported `built`, public, with\nHTTPS enforcement and branch source `main:/docs`; its confirmed address was\n`https://justin-leis.github.io/webe-opolis/`. The latest build for main commit\n`b35b2e2844e01522ed5142c2a662d8a21b06046d` completed without a reported\nbuild error. The GitHub Actions run `46093865427` concluded successfully.\n\nAn HTTPS GET of that address returned HTTP 200 and `text/html`. The response\nbytes had SHA-256\n`089760a5ff6e7276537547d2996a7bb39ceaf670bb79f3c9a0c9575b1d5b0b9b`,\nmatching the inspected page. An HTML parser found “Welcome to the wizard\ncity.”, the statement that WeBe-Opolis is managed by the Repository City\nplugin, and exactly these link targets:\n\n- `https://github.com/WebeWizard/webe-city`\n- `https://github.com/justin-leis/webe-opolis`\n\nIndependent HTTPS requests following redirects to both targets returned HTTP\n200 at those exact URLs. These checks do not constitute an exhaustive security,\naccessibility, recovery, cost, or external-obligation review. Earlier HTTP 404\nwhile the site was building is recorded in the setup evidence. The first\nGitHub deployment run reported a Node.js 20 deprecation annotation; it did\nnot fail. This evidence is not final inspection or resident acceptance.\n",
+  "sourceOffice": "session-coordinator",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "filed-work-product",
+  "createdAt": "2026-11-28T01:36:37.996Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.12.0"
+    }
+  }
+}

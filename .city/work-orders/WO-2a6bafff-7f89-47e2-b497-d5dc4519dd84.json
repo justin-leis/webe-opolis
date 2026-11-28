@@ -15,9 +15,9 @@
   "projectIds": [
     "city-homepage"
   ],
-  "status": "in-progress",
+  "status": "completed",
   "createdAt": "2026-11-27T19:06:42.683Z",
-  "updatedAt": "2026-11-27T21:09:32.491Z",
+  "updatedAt": "2026-11-28T02:12:35.277Z",
   "history": [
     {
       "from": null,
@@ -54,6 +54,24 @@
       "to": "in-progress",
       "reason": "Begin implementation on branch justin-leis-wizard-city-homepage-95b after resident confirmation of plan ART-4668a228-8b67-4470-b1eb-c93b9fced805; preserve existing city work; scope remains docs/index.html only.",
       "timestamp": "2026-11-27T21:09:32.491Z"
+    },
+    {
+      "from": "in-progress",
+      "to": "inspection",
+      "reason": "Completion notice revision 1 records all active permit conditions and references the plan, preliminary inspection, Pages setup, and live verification; hand off for independent final inspection, not acceptance.",
+      "timestamp": "2026-11-28T01:47:30.760Z"
+    },
+    {
+      "from": "inspection",
+      "to": "awaiting-acceptance",
+      "reason": "Independent final inspection passed in ART-61172c8a-a072-4fbf-bf44-4ba60b5894dd after the planned merge; earlier blocked report and supplement remain recorded.",
+      "timestamp": "2026-11-28T02:08:48.155Z"
+    },
+    {
+      "from": "awaiting-acceptance",
+      "to": "completed",
+      "reason": "Completion accepted by the resident in DEC-1567ebcf-3cd5-4b0a-930c-5f735d815e58; recorded, not authenticated.",
+      "timestamp": "2026-11-28T02:12:35.277Z"
     }
   ],
   "provenance": {
@@ -591,6 +609,39 @@
     ],
     "statements": [],
     "verifications": [],
-    "completionNotices": []
+    "completionNotices": [
+      {
+        "permitId": "PMT-534ae846-e86c-4747-9fc0-12a8279c9b3c",
+        "conditions": [
+          {
+            "id": "implementation-plan",
+            "status": "met",
+            "evidence": "ART-4668a228-8b67-4470-b1eb-c93b9fced805 was recorded 2026-11-27 21:06:59 UTC before the 21:09:32 UTC implementation start recorded in work-order history. The plan limits implementation to static docs/index.html and the selected main:/docs Pages source, with stop conditions for excluded files, security or permission changes, or paid services."
+          },
+          {
+            "id": "independent-inspection",
+            "status": "met",
+            "evidence": "Independent preliminary inspection ART-901392ee-384c-496b-84bc-eb118d9a6f6c, filed 2026-11-27 21:25:57 UTC, reports a scoped pass for the single docs/index.html SHA-256 089760a5ff6e7276537547d2996a7bb39ceaf670bb79f3c9a0c9575b1d5b0b9b. ART-21feeb68-7ed6-4223-9e56-8361bb30ab9a reports the main file matched that digest before Pages setup on 2026-11-28 UTC. The preliminary review relied partly on an attributed browser report and is not final inspection."
+          },
+          {
+            "id": "pages-result",
+            "status": "met",
+            "evidence": "ART-21feeb68-7ed6-4223-9e56-8361bb30ab9a records successful Pages setup from main:/docs and the initial building status, and reports no paid service, permission change, domain change, or outside-docs implementation change. ART-c3788214-2b76-4206-b876-65612df706bd records built status at 2026-11-28 01:36:21 UTC, public address https://justin-leis.github.io/webe-opolis/, HTTP 200, matching inspected digest, expected content and both destination checks. Actual billing, recovery and applicable external requirements remain unverified."
+          }
+        ],
+        "evidence": "Resident authorization DEC-175b4fab-11dc-4971-bfec-466e9b1cd000; cited plan, preliminary inspection, Pages setup and live verification records. This notice is a recorded unauthenticated handoff, not independent final inspection or resident acceptance.",
+        "revision": 1,
+        "recordedAt": "2026-11-28T01:47:23.686Z",
+        "sourceOffice": "engineering-manager",
+        "authenticated": false,
+        "provenance": {
+          "source": "local-draft",
+          "plugin": {
+            "name": "repository-city",
+            "version": "0.12.1"
+          }
+        }
+      }
+    ]
   }
 }

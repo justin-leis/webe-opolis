@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "DEC-1567ebcf-3cd5-4b0a-930c-5f735d815e58",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "kind": "acceptance",
+  "workOrderIds": [
+    "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84"
+  ],
+  "outcome": "accept",
+  "decidedBy": "resident",
+  "basis": "resident-decision",
+  "routineClass": null,
+  "reservedMatters": [],
+  "reason": "Resident explicitly accepted the completed homepage after the final independent inspection and publication.",
+  "subject": {
+    "workOrderSha256": "8ced36e4cd742ea9b38fbd000d577800fffcb60b0850e510deeaa2953b7b79d8",
+    "charterSha256": "573af4ed18911d3828d29288e8c88b787275df9762b1fbb15bf7c8377b4506af",
+    "delegationPolicySha256": "ee1368478b383eb7e58ed8ecb62936cd06b3f7e799c454433e00466c3a690580"
+  },
+  "evidence": {
+    "declaredBy": "resident",
+    "reference": "Final independent inspection ART-61172c8a-a072-4fbf-bf44-4ba60b5894dd; homepage PR #2 merged; live https://justin-leis.github.io/webe-opolis/",
+    "authenticated": false
+  },
+  "createdAt": "2026-11-28T02:12:35.277Z",
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.12.1"
+    }
+  }
+}

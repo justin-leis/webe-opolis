@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-21feeb68-7ed6-4223-9e56-8361bb30ab9a",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "GitHub Pages setup evidence",
+  "kind": "deployment-evidence",
+  "format": "markdown",
+  "content": "# GitHub Pages setup evidence\n\nWork order: `WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84`.\nAuthorization: `DEC-175b4fab-11dc-4971-bfec-466e9b1cd000`.\nPermit: `PMT-534ae846-e86c-4747-9fc0-12a8279c9b3c`.\n\nThe resident merged homepage PR #2 and city-records PR #3. Before setup,\nGitHub's `main:/docs/index.html` SHA-256 matched the independently inspected\nrevision `089760a5ff6e7276537547d2996a7bb39ceaf670bb79f3c9a0c9575b1d5b0b9b`;\nthe `docs` directory contained only that file. The filed preliminary\ninspection `ART-901392ee-384c-496b-84bc-eb118d9a6f6c` matched the local copy.\n\nOn 2026-11-28 UTC, the GitHub Pages create API returned success for public,\nHTTPS-enforced branch deployment from `main:/docs`, with address\n`https://justin-leis.github.io/webe-opolis/`. At 01:35:33 UTC, the Pages API\nreported status `building`; the latest build was for main commit\n`b35b2e2844e01522ed5142c2a662d8a21b06046d`. The public homepage returned\nHTTP 404 during the initial build. This is not a successful live verification.\nBoth intended GitHub link destinations independently returned HTTP 200.\n\nPublication, rendered content and links at the public address require a later\nsuccessful check. No paid service, permissions change, domain change, or\noutside-`docs` implementation change was made. Host eligibility beyond the\naccepted setup, actual billing, applicable external requirements and recovery\nremain unverified. This evidence is not final inspection or resident acceptance.\n",
+  "sourceOffice": "session-coordinator",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "filed-work-product",
+  "createdAt": "2026-11-28T01:35:49.118Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.12.0"
+    }
+  }
+}
