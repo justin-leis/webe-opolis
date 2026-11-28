@@ -47,8 +47,9 @@ Anything uncertain, disputed, or outside this delegation is also referred.
 - The Engineering Manager assigns authorized work orders to an active specialist whose competencies match required expertise, or uses the general engineer for ordinary work. It requests a specialist through the adopted workforce delegation policy when specialized expertise is required and no active specialist fits. It does not create agent files itself.
 - Human Resources reviews specialist requisitions and generates files only after the Engineering Manager records an appointment under the adopted workforce delegation policy.
 - The assigned engineer delivers on a non-default branch and never authorizes its own work. Once an authorization is recorded, the City Manager starts the Engineering Manager automatically, without a further resident prompt.
-- An independent Building Inspector reviews delivery and moves it to awaiting merge or back to in-progress.
-- The resident gives final acceptance: the resident reviews and merges the pull request, then records acceptance with `complete`.
+- The plan identifies pre-merge and post-merge checks, evidence, sequencing, and required resident decisions, subject to applicable controls. Independent pre-merge checks may be reported while delivery is in progress; they are not final inspection.
+- An independent Building Inspector assesses all criteria before final acceptance. After a pass, the order moves to `awaiting-merge` if the resident still needs to merge, or `awaiting-acceptance` if the planned merge has already occurred; a failure returns it to `in-progress`.
+- The resident reviews and merges the pull request at the planned point and gives final acceptance with `complete` only after all required inspection and evidence. Deployment and publication remain reserved matters.
 
 These duties are assigned by office instructions and agent tool lists, not enforced by the runtime. The runtime performs no git, merge, push, or deployment operations.
 

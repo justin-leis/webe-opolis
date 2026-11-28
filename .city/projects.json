@@ -6,6 +6,12 @@
       "name": "Webe Gather",
       "path": "apps/webe-gather",
       "description": "Multiplayer online meeting space similar to Gather.town"
+    },
+    {
+      "id": "city-homepage",
+      "name": "City homepage",
+      "path": "docs",
+      "description": "Public GitHub Pages homepage for webe-opolis"
     }
   ]
 }

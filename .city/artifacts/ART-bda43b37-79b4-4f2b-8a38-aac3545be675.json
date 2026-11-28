@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-bda43b37-79b4-4f2b-8a38-aac3545be675",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Pages investigation: available facts and blockers",
+  "kind": "study",
+  "format": "markdown",
+  "content": "### Evidence\n\nAt **2026-11-27 19:44 UTC**, local inspection found no `docs` directory and no tracked `docs` or `.github` paths in this workspace. The configured remote is `https://github.com/justin-leis/webe-opolis.git`. City validation passed; the order remains **received**, not authorized, with `development-advisor / complete-application` as the next action.\n\nThe resident reports that the repository is public, its default branch is `main`, `has_pages` is false, and their token has the stated repository permissions. The resident also reports `/pages` returned **404** and the selected plugin repository is public and reachable. These are **resident-reported**, not independently verified here. The 404 does not establish Pages source, address, disabled status, or eligibility.\n\nIndependent anonymous requests at **19:44:05 UTC** found:\n\n- [Rules for `main`](https://api.github.com/repos/justin-leis/webe-opolis/rules/branches/main): **200, empty array**. [GitHub’s documentation](https://docs.github.com/en/rest/repos/rules#get-rules-for-a-branch) says this endpoint returns active ruleset rules; it excludes disabled and evaluate-only rules. This does **not** establish classic branch-protection settings or bypass behavior.\n- Classic branch protection, Actions policy, and workflow default permissions: **401, “Requires authentication.”** They remain unknown.\n\n[GitHub’s Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) describes branch and Actions-workflow sources; admin or maintainer permissions can configure a source. [Plan guidance](https://raw.githubusercontent.com/github/docs/main/data/reusables/gated-features/pages.md) generally includes public repositories, but this does not establish this repository’s actual eligibility or restrictions. A branch source using `docs` requires that folder on the selected branch. No source or mechanism is selected here.\n\n[Unpublishing documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/unpublishing-a-github-pages-site) describes removing a current deployment without removing repository content or settings, and later redeployment by the applicable source method. Whether these operations are available here, who can perform them, and recovery details remain unverified.\n\n### Open gaps and risks\n\nActual Pages source, address, eligibility, served files, dependencies, classic protection, Actions controls, operator, notification, capacity, cost, and tested recovery remain unknown. Public exposure, failed or stale publication, and recovery risk cannot yet be cleared. An authorized holder may provide **sanitized read-only settings evidence**, without credentials or private code.\n\nNo security clearance, live-site test, publication, permission change, expenditure, or delivery is claimed. Pages enablement and publication remain separately resident-reserved.\n\n### Staffing and handoff\n\nThe active general engineer was considered; no delivery assignment is permitted while the order is received. No requisition, appointment, assignment, or dispatch was made for this order; no MCP proposal is pending. The draft is **not saved**; route it through City Manager to the Records Officer if persistence is desired.\n\nNo staffing was recorded. **Staffing recorded, not authenticated — delivery still needs independent inspection** applies if staffing is later recorded.\n",
+  "sourceOffice": "engineering-manager",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "working-draft",
+  "createdAt": "2026-11-27T19:46:14.129Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.9.0"
+    }
+  }
+}

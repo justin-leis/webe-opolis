@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — proposed context drawing",
+  "kind": "diagram",
+  "format": "mermaid",
+  "content": "flowchart LR\n  V[Visitor browser] -->|confirmed public address, if established| H[GitHub Pages hosting/source: unknown]\n  H -->|serves only reviewed authorized site files| D[Proposed static site under registered docs scope]\n  D -->|intended link destination: confirm| P[Repository City plugin]\n  D -->|intended link destination: confirm| R[City repository]\n  O[Accountable operator, notification and recovery: unknown] -. operates and responds only if established .-> H\n  A[Separate resident authorization for reserved actions] -. required before enablement/publication .-> H\n  I[Independent inspection and resident acceptance] -. separate post-delivery steps .-> D\n  N[No host source, address, target, operator or deployment is confirmed by this drawing] -.-> H",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "working-draft",
+  "createdAt": "2026-11-27T19:14:30.260Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.8.2"
+    }
+  }
+}

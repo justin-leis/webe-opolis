@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-1fb66613-8b18-458b-b057-13e30e6f4c79",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — proposed Pages flow",
+  "kind": "diagram",
+  "format": "mermaid",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": "ART-11b8b0ee-97ea-4789-baf4-b57b926ec28d",
+  "recordCategory": "working-draft",
+  "content": "flowchart LR\n  V[Visitor] -->|actual address not yet known| H[GitHub Pages: observed disabled; no branch selected]\n  H -. proposed source after separate authorization .-> M[main:/docs]\n  M -->|future candidate; not yet created| D[docs/index.html: static, inline CSS, no external assets]\n  D --> P[https://github.com/WebeWizard/webe-city]\n  D --> R[https://github.com/justin-leis/webe-opolis]\n  M -. future docs changes auto-publish by resident choice .-> H\n  A[Separate resident authorization for Pages enablement and publication] -. required .-> H\n  O[Resident states they will maintain; review each deployment result] -. operating plan, not authenticated identity .-> H\n  U[Documented unpublish/redeploy option; availability and recovery untested] -. only with separate authority .-> H\n  I[Independent inspection and resident acceptance] -. separate post-delivery steps .-> D",
+  "createdAt": "2026-11-27T20:24:31.464Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-afe63d22-f099-4b4a-93ed-c1118b0591b2",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — preliminary public-release risk and operations study",
+  "kind": "study",
+  "format": "markdown",
+  "content": "# Wizard city homepage — preliminary public-release risk and operations study\n\nCase WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84; screening revision 1. Preliminary planning analysis only. It does not satisfy all risk-operations evidence needs or constitute a security clearance.\n\n## Evidence and limits\nThe registered project path is docs. No site implementation, host settings, Pages source/address, operating owner, recovery process, access model, capacity or cost evidence was available in the selected workspace. The earlier Manager observations relayed for predecessor WO-ce0b2be1-7e0c-464b-b17c-814ad36e3ccd are historical and unverified for this case; they are not treated as current evidence. No runtime, scanner, security, compatibility, accessibility, performance or live study was run. No external service is presumed city-owned.\n\n## Scenarios, candidate controls and residual unknowns\n1. **Unintended public exposure:** a served file or asset could include content not intended for public release. Candidate control: identify the actual serving source and review the exact files and dependencies before publication; do not include secrets or restricted content. Unknown: actual host/source behavior and effective controls. Residual risk cannot be rated from present evidence.\n2. **Incorrect, broken or inaccessible interface:** visitors may receive inaccurate information, broken links or an interface difficult to use. Candidate control: verify content and exact destinations; perform documented keyboard, responsive and accessibility checks before publication. Unknown: final implementation and actual link destinations. No tests have been performed.\n3. **Stale or failed publication:** the public page may not reflect the intended revision or may become unavailable. Candidate control: identify an accountable operator, a notification/escalation route, the known-good revision and an authorized recovery procedure before relying on service continuity. Unknown: operator, coverage, monitoring, notification and recovery feasibility.\n4. **Excessive access or unreviewed deployment path:** a publishing mechanism may require permissions or targets beyond docs. Candidate control: establish exact mechanism and least privilege before proposing it; route permission/security decisions to the resident. Unknown: actual requirements. No workflow or permission change is assumed.\n5. **Ongoing maintenance and resource burden:** host changes, link drift or support duties may require future work. Candidate control: identify owner, maintenance cadence, capacity and any real costs before commitment. Unknown: all case-specific estimates and commitments; unknown cost is not zero.\n\n## Operations, failure and recovery\nBefore publication, evidence is needed for the real operator and coverage, failure notification/escalation, actual target and host controls, capacity/cost, and a feasible unpublish/restore method. On a failure, stop further release activity, preserve the observed revision and evidence, notify the accountable operator through an established route, and use only a separately authorized recovery method. Do not claim a rollback or recovery is available until the actual host method and authority are established. No monitoring, notification, maintenance, restoration or publication is performed by this study.\n\n## Disposition\nThe study identifies relevant scenarios and proposed controls, but required operational facts and residual-risk evaluation remain open. It is not non-applicable and is not sufficient to claim readiness. Manager should obtain current read-only evidence and competent specialist input where available. If new evidence establishes broader safety, structural, permission or cross-project effects, pause for current screening review.",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "working-draft",
+  "createdAt": "2026-11-27T19:14:40.264Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.8.2"
+    }
+  }
+}

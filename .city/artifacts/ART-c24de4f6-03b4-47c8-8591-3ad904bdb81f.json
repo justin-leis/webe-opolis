@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-c24de4f6-03b4-47c8-8591-3ad904bdb81f",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Wizard city homepage — interface and verification specification",
+  "kind": "specification",
+  "format": "markdown",
+  "sourceOffice": "development-advisor",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": "ART-e5e86ac5-b0ba-4151-af9e-710cca436898",
+  "recordCategory": "working-draft",
+  "content": "# Wizard city homepage — interface and verification specification\n\nRoot: `/home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-urban-giggle`. Case WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84; formal screening revision 1. Working draft.\n\n## Interface\nOne future `docs/index.html`, with inline CSS and no external assets, scripts, fonts, forms, analytics or visitor tracking. State that Repository City manages the city. Link to the resident-selected destinations https://github.com/WebeWizard/webe-city and https://github.com/justin-leis/webe-opolis. Use original wizard-city styling without an Emerald City resemblance; descriptive title, semantic headings, clearly named links, visible focus, keyboard operation, readable contrast and a usable narrow/wide layout. No site implementation currently exists in the reported workspace; do not require it as application-stage evidence.\n\n## Hosting facts and design\nThe resident-selected design is automatic branch publication from `main:/docs`. The coordinator reports observing the settings page read-only in a browser signed in by the resident on 2026-11-27. The resident confirmed the page was visible but did not report its contents. The coordinator observed Pages disabled, source type “Deploy from a branch,” branch “None,” a Save control, and no live address or eligibility warning. No setting was changed. The Pages API GET 404 is ambiguous. The UI observation does not prove a later save will succeed. No live address is established; the generic project-site format is `owner.github.io/repository`.\n\nGitHub documentation says the entry file must be at the top of the selected source, branch publishing defaults to Jekyll unless disabled, and deployment uses Actions. This candidate uses the default Jekyll behavior and no custom workflow. Any requirement for a workflow, permission increase, paid service or outside-`docs` change is a stop-and-refer condition, not included scope.\n\n## Planned acceptance and recovery\nAfter authorized implementation, record actual checks of the page content, both link destinations, responsive behavior, keyboard/accessibility behavior, source-file set and deployment/build result. Review the Actions run after each intended change to `main`; no automated notification is established. These are future checks, not completed tests.\n\nOnly after separate resident authorization for Pages enablement/publication and confirmation of the actual address, record its address, time, method and actual live reachability/content/link results. GitHub documentation describes unpublishing without removing source/settings and later redeployment; neither availability nor recovery has been tested for this repository. Do not execute recovery without applicable authority. Stop on failure or scope drift. Independent Inspector review and resident final acceptance remain separate.",
+  "createdAt": "2026-11-27T20:24:50.913Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.10.0"
+    }
+  }
+}

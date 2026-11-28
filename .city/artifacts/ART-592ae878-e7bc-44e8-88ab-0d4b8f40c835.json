@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-592ae878-e7bc-44e8-88ab-0d4b8f40c835",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Planning brief — independent review of application revision 2",
+  "kind": "plan",
+  "format": "markdown",
+  "content": "# Planning brief — independent review of application revision 2\n\nRoot: /home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-cautious-carnival\nCase: WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84\nProject: city-homepage, registered at docs.\nDisposition: revise application revision 2; not authorized.\n\n## Evidence and boundaries\n\nThe work order requests an original wizard-city homepage, GitHub Pages enablement, publication and later live verification. The registered project boundary is docs; the repository district describes ownership, not permission. The inspected workspace has no docs site, interface or site tests. No adopted zoning policy or zoning map was identified. The predecessor remains unchanged.\n\nThe resident selected https://github.com/WebeWizard/webe-city as the plugin destination. Engineering Manager artifact ART-242e1068-908c-46c1-ba9d-c59d756eee06 reports a local curl option failure before any request, not an HTTP result. Artifact ART-07ffaa4d-9f6e-4543-9da0-eb1f2984b622 reports a local repository remote, not confirmed resident intent or host ownership. Current host settings, address, targets, access and recovery remain unknown. No runtime, accessibility, security, compatibility or live test was performed.\n\n## Alternatives and impacts\n\nA static docs homepage with necessary local assets is the smallest candidate: it offers a public introduction with relatively few dependencies, but hosting compatibility and reversibility are not established. A generated site may provide extensibility but adds dependencies and maintenance. No change avoids new public exposure and operating obligations but does not deliver the requested outcome. Cost and capacity are unknown, not zero; estimates would not authorize spending.\n\nVisitors could encounter inaccessible, incorrect or stale information; unintended files could be exposed, and an unclear publishing path could require excess access. The preliminary study ART-afe63d22-f099-4b4a-93ed-c1118b0591b2 identifies candidate controls, but likelihood, severity and residual risk cannot be determined adequately without the actual host method and operating evidence. The external host is not presumed to be a city-owned asset. Service baselines, cross-asset dependencies, renewal needs and available capacity are not established; no funded maintenance commitment is claimed.\n\n## Required continuation\n\nManager should coordinate authorized read-only evidence for Pages source, settings, address, restrictions, targets, dependencies and access, and competent security, accessibility and operations input as needed. Advisor should complete the site specification and risk-operations study, including accountable operation, notification, capacity, cost, served files and feasible recovery. Confirm the intended city-repository link. Do not request the plugin URL again.\n\nAfter applicable authorization, delivery should remain within the authorized scope, with recorded content, link, responsive, accessibility and served-file checks. Following separately authorized publication, record the confirmed address, time, evidence and actual reachability, content and link results. Stop on failure or scope drift; use only an established, separately authorized recovery method. Independent inspection and resident acceptance remain separate.\n\nScreening revision 1 provisionally assigns safety class 2 and structural class 2 under building-permits policy. Re-screen if verified facts establish broader impacts. Publication, Pages enablement, deployment, security or permission changes and expenditure remain resident-reserved. Council consideration follows a ready application and ordinary lifecycle progression; this brief grants no authority.\n",
+  "sourceOffice": "chief-planner",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "filed-work-product",
+  "createdAt": "2026-11-27T19:33:51.601Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.9.0"
+    }
+  }
+}

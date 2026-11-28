@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ART-242e1068-908c-46c1-ba9d-c59d756eee06",
+  "cityId": "4d44f915-5248-4e97-8ab4-858352b6ffd2",
+  "title": "Plugin link and Pages evidence — bounded advisory",
+  "kind": "study",
+  "format": "markdown",
+  "sourceOffice": "engineering-manager",
+  "workOrderId": "WO-2a6bafff-7f89-47e2-b497-d5dc4519dd84",
+  "supersedes": null,
+  "recordCategory": "working-draft",
+  "content": "# Bounded advisory\n\nRoot: /home/webe/workspace/copilot-worktrees/webe-opolis/justin-leis-cautious-carnival. Project: city-homepage (docs/). The order is received, without delivery authorization.\n\nAt 2026-11-27 19:26:23 UTC an anonymous check of the resident-supplied https://github.com/WebeWizard/webe-city failed locally because curl rejected --netrc-. No request was sent; no HTTP response or redirect was observed. The attempt was not retried. HTTP accessibility alone would not establish ownership, safety, or future availability.\n\nThe local docs directory is absent and no tracked docs or .github paths were found. These observations do not establish remote Pages settings, source, address, operator, or recovery. Sanitized host evidence from an authorized holder remains needed. No host-side access, publication, settings change, or delivery was performed. The URL is a resident choice, not clearance or authorization.\n\nCity validation passed. Status identifies development-advisor / complete-application as the next action. No staffing was assigned or dispatched. This working draft is not approval or a security clearance.",
+  "createdAt": "2026-11-27T19:27:29.881Z",
+  "authenticated": false,
+  "provenance": {
+    "source": "local-draft",
+    "plugin": {
+      "name": "repository-city",
+      "version": "0.8.2"
+    }
+  }
+}
