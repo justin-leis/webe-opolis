@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111128">
+    <title>WeBe-Opolis — a wizard city</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Georgia, "Times New Roman", serif;
+        background: #111128;
+        color: #f7f1e8;
+        font-synthesis: none;
+        text-rendering: optimizeLegibility;
+        --ink-muted: #c9c4d9;
+        --gold: #f3cb7b;
+        --violet: #c5a5ff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-width: 18rem;
+        min-height: 100vh;
+        margin: 0;
+        background:
+          radial-gradient(ellipse at 75% 16%, rgb(91 74 145 / 34%), transparent 34rem),
+          radial-gradient(ellipse at 14% 82%, rgb(73 47 105 / 25%), transparent 32rem),
+          linear-gradient(155deg, #17162f 0%, #111128 57%, #17132a 100%);
+      }
+
+      .page {
+        position: relative;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        overflow: hidden;
+        isolation: isolate;
+      }
+
+      .page::before {
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background-image:
+          radial-gradient(1px 1px at 12% 18%, #fff8df 99%, transparent),
+          radial-gradient(1.5px 1.5px at 82% 12%, #f3cb7b 99%, transparent),
+          radial-gradient(1px 1px at 66% 33%, #fff8df 99%, transparent),
+          radial-gradient(1.5px 1.5px at 28% 42%, #c5a5ff 99%, transparent),
+          radial-gradient(1px 1px at 91% 49%, #fff8df 99%, transparent);
+        background-size: 19rem 17rem;
+        content: "";
+        opacity: 0.72;
+        pointer-events: none;
+      }
+
+      .topbar,
+      main,
+      footer {
+        width: min(100% - 2.5rem, 70rem);
+        margin-inline: auto;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-block: 1.5rem;
+        border-bottom: 1px solid rgb(247 241 232 / 14%);
+      }
+
+      .wordmark {
+        color: #fff8ef;
+        font-family: system-ui, sans-serif;
+        font-size: 0.84rem;
+        font-weight: 750;
+        letter-spacing: 0.17em;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .topnote {
+        color: var(--ink-muted);
+        font-family: system-ui, sans-serif;
+        font-size: 0.76rem;
+        letter-spacing: 0.08em;
+        text-align: right;
+        text-transform: uppercase;
+      }
+
+      main {
+        display: grid;
+        flex: 1;
+        align-items: center;
+        gap: 2rem;
+        padding-block: 4.5rem 5.5rem;
+      }
+
+      .intro {
+        position: relative;
+        z-index: 1;
+        max-width: 39rem;
+      }
+
+      .eyebrow {
+        margin: 0 0 1.1rem;
+        color: var(--gold);
+        font-family: system-ui, sans-serif;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 11ch;
+        margin: 0;
+        color: #fff8ef;
+        font-size: clamp(3.2rem, 12vw, 6.7rem);
+        font-weight: 500;
+        letter-spacing: -0.055em;
+        line-height: 0.98;
+      }
+
+      .lead {
+        max-width: 34rem;
+        margin: 1.6rem 0 0;
+        color: var(--ink-muted);
+        font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+        line-height: 1.7;
+      }
+
+      .lead strong {
+        color: #fff8ef;
+        font-weight: 600;
+      }
+
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.9rem;
+        margin-top: 2.1rem;
+      }
+
+      .links a {
+        display: inline-flex;
+        min-height: 3.2rem;
+        align-items: center;
+        justify-content: center;
+        padding: 0.85rem 1.15rem;
+        border: 1px solid rgb(243 203 123 / 70%);
+        border-radius: 0.4rem;
+        background: rgb(243 203 123 / 9%);
+        color: #fff4d8;
+        font-family: system-ui, sans-serif;
+        font-size: 0.92rem;
+        font-weight: 650;
+        text-decoration: none;
+        transition: background-color 140ms ease, border-color 140ms ease;
+      }
+
+      .links a:hover {
+        border-color: var(--gold);
+        background: rgb(243 203 123 / 18%);
+      }
+
+      a:focus-visible {
+        outline: 3px solid #fff8ef;
+        outline-offset: 4px;
+      }
+
+      .skyline {
+        position: relative;
+        width: min(100%, 37rem);
+        height: 12rem;
+        justify-self: center;
+        align-self: end;
+        margin-top: 1rem;
+        border-bottom: 1px solid rgb(243 203 123 / 55%);
+        background: linear-gradient(0deg, rgb(55 44 87 / 70%), transparent 88%);
+      }
+
+      .moon {
+        position: absolute;
+        top: 0.2rem;
+        right: 12%;
+        width: 3.3rem;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background: #f3cb7b;
+        box-shadow: 0 0 2.5rem rgb(243 203 123 / 27%);
+      }
+
+      .tower {
+        position: absolute;
+        bottom: 0;
+        width: var(--tower-width);
+        height: var(--tower-height);
+        border: 1px solid rgb(197 165 255 / 32%);
+        border-bottom: 0;
+        background:
+          repeating-linear-gradient(90deg, transparent 0 0.85rem, rgb(243 203 123 / 48%) 0.9rem 0.98rem, transparent 1.03rem 1.55rem),
+          linear-gradient(180deg, #393459, #24213e);
+        clip-path: polygon(0 13%, 35% 13%, 50% 0, 65% 13%, 100% 13%, 100% 100%, 0 100%);
+      }
+
+      .tower:nth-of-type(2) {
+        left: 8%;
+        --tower-width: 20%;
+        --tower-height: 62%;
+      }
+
+      .tower:nth-of-type(3) {
+        left: 31%;
+        --tower-width: 22%;
+        --tower-height: 83%;
+      }
+
+      .tower:nth-of-type(4) {
+        right: 24%;
+        --tower-width: 18%;
+        --tower-height: 56%;
+      }
+
+      .tower:nth-of-type(5) {
+        right: 3%;
+        --tower-width: 20%;
+        --tower-height: 72%;
+      }
+
+      footer {
+        padding-block: 1.2rem 1.6rem;
+        border-top: 1px solid rgb(247 241 232 / 14%);
+        color: #aaa5bd;
+        font-family: system-ui, sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.6;
+      }
+
+      @media (min-width: 52rem) {
+        main {
+          grid-template-columns: minmax(0, 1fr) minmax(20rem, 0.9fr);
+          gap: 3rem;
+          padding-block: 5rem;
+        }
+
+        .skyline {
+          width: 100%;
+          height: 19rem;
+          margin: 0;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <span class="wordmark">WeBe-Opolis</span>
+        <span class="topnote">A small city beneath a vast sky</span>
+      </header>
+
+      <main>
+        <section class="intro" aria-labelledby="welcome">
+          <p class="eyebrow">Curiosity has a home</p>
+          <h1 id="welcome">Welcome to the wizard city.</h1>
+          <p class="lead">
+            WeBe-Opolis is managed by the <strong>Repository City plugin</strong>:
+            a place for building, learning, and making room for a little wonder.
+          </p>
+          <nav class="links" aria-label="Explore the city">
+            <a href="https://github.com/WebeWizard/webe-city">Explore the Repository City plugin</a>
+            <a href="https://github.com/justin-leis/webe-opolis">Visit the city repository</a>
+          </nav>
+        </section>
+
+        <div class="skyline" aria-hidden="true">
+          <span class="moon"></span>
+          <span class="tower"></span>
+          <span class="tower"></span>
+          <span class="tower"></span>
+          <span class="tower"></span>
+        </div>
+      </main>
+
+      <footer>
+        An independent wizard-city design, made with HTML and CSS.
+      </footer>
+    </div>
+  </body>
+</html>
